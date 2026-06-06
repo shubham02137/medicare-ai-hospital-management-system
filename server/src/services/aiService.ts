@@ -21,7 +21,7 @@ const getGeminiModel = async () => {
   try {
     const { GoogleGenerativeAI } = await import('@google/generative-ai');
     const genAI = new GoogleGenerativeAI(env.GEMINI_API_KEY);
-    geminiModel = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    geminiModel = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
     return geminiModel;
   } catch (err) {
     console.error('⚠️ Failed to initialize Google Generative AI client:', err);
@@ -37,6 +37,27 @@ const withTimeout = <T>(promise: Promise<T>, timeoutMs: number, errorMessage: st
     promise,
     new Promise<T>((_, reject) => setTimeout(() => reject(new Error(errorMessage)), timeoutMs))
   ]);
+};
+
+/**
+ * Helper function to call generateContent with automatic retry on transient errors (503/429/high demand).
+ */
+const generateContentWithRetry = async (model: any, prompt: string, retries = 3, delayMs = 1500): Promise<any> => {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await model.generateContent(prompt);
+    } catch (err: any) {
+      const errText = err.message || '';
+      const isRetryable = errText.includes('503') || errText.includes('429') || errText.includes('demand') || errText.includes('quota');
+      if (isRetryable && attempt < retries) {
+        console.warn(`⚠️ Gemini API returned transient error (Attempt ${attempt}/${retries}): ${errText.substring(0, 80)}. Retrying in ${delayMs}ms...`);
+        await new Promise(resolve => setTimeout(resolve, delayMs));
+        delayMs *= 1.5;
+        continue;
+      }
+      throw err;
+    }
+  }
 };
 
 // ─── Symptom Check ──────────────────────────────────────────────────
@@ -68,9 +89,9 @@ Respond ONLY with valid JSON in this exact format (do NOT wrap it in markdown bl
 
   try {
     const result = await withTimeout<any>(
-      model.generateContent(prompt),
-      15000,
-      'Gemini API request timed out after 15 seconds.'
+      generateContentWithRetry(model, prompt),
+      20000,
+      'Gemini API request timed out after 20 seconds.'
     );
     const text = result.response.text();
     const jsonMatch = text.match(/\{[\s\S]*\}/);
@@ -112,9 +133,9 @@ Respond ONLY with valid JSON in this exact format (do NOT wrap it in markdown bl
 
   try {
     const result = await withTimeout<any>(
-      model.generateContent(prompt),
-      15000,
-      'Gemini API request timed out after 15 seconds.'
+      generateContentWithRetry(model, prompt),
+      20000,
+      'Gemini API request timed out after 20 seconds.'
     );
     const text = result.response.text();
     const jsonMatch = text.match(/\{[\s\S]*\}/);
@@ -156,9 +177,9 @@ Respond naturally, empathetically, and dynamically. Do NOT use static templates.
 
   try {
     const result = await withTimeout<any>(
-      model.generateContent(prompt),
-      15000,
-      'Gemini API request timed out after 15 seconds.'
+      generateContentWithRetry(model, prompt),
+      20000,
+      'Gemini API request timed out after 20 seconds.'
     );
     return result.response.text();
   } catch (err: any) {
