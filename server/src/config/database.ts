@@ -9,6 +9,9 @@ if (env.DATABASE_URL) {
     max: 20,
     idleTimeoutMillis: 30000,
     connectionTimeoutMillis: 5000,
+    ssl: env.DATABASE_URL.includes('sslmode=require') || env.DATABASE_URL.includes('neon.tech') || env.DATABASE_URL.includes('render.com')
+      ? { rejectUnauthorized: false }
+      : undefined
   });
 
   pool.on('error', (err) => {

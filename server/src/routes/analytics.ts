@@ -11,14 +11,14 @@ router.use(authenticate);
 router.use(authorize('admin', 'doctor'));
 
 // ─── GET /api/analytics/dashboard ──────────────────────────────────
-router.get('/dashboard', (req: Request, res: Response): void => {
-  const patients = store.getPatients();
-  const doctors = store.getDoctors();
-  const appointments = store.getAppointments();
-  const billings = store.getBillings();
-  const medicines = store.getMedicines();
-  const labReports = store.getLabReports();
-  const users = store.getUsers();
+router.get('/dashboard', async (req: Request, res: Response): Promise<void> => {
+  const patients = await store.getPatients();
+  const doctors = await store.getDoctors();
+  const appointments = await store.getAppointments();
+  const billings = await store.getBillings();
+  const medicines = await store.getMedicines();
+  const labReports = await store.getLabReports();
+  const users = await store.getUsers();
 
   const totalPatients = patients.length;
   const totalDoctors = doctors.length;
@@ -87,8 +87,8 @@ router.get('/revenue-trend', (req: Request, res: Response): void => {
 });
 
 // ─── GET /api/analytics/appointment-stats ──────────────────────────
-router.get('/appointment-stats', (req: Request, res: Response): void => {
-  const appointments = store.getAppointments();
+router.get('/appointment-stats', async (req: Request, res: Response): Promise<void> => {
+  const appointments = await store.getAppointments();
   
   let pending = appointments.filter(a => a.status === 'pending').length;
   let confirmed = appointments.filter(a => a.status === 'confirmed').length;

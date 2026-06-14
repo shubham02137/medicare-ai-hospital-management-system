@@ -12,24 +12,24 @@ router.use(authenticate);
 
 // ─── GET /api/vitals ────────────────────────────────────────────────
 
-router.get('/', (_req: Request, res: Response): void => {
-  const vitals = store.getVitals();
+router.get('/', async (_req: Request, res: Response): Promise<void> => {
+  const vitals = await store.getVitals();
   const body: ApiResponse = { success: true, data: vitals };
   res.json(body);
 });
 
 // ─── GET /api/vitals/patient/:patientId ─────────────────────────────
 
-router.get('/patient/:patientId', (req: Request, res: Response): void => {
-  const vitals = store.getVitalsByPatient(req.params.patientId);
+router.get('/patient/:patientId', async (req: Request, res: Response): Promise<void> => {
+  const vitals = await store.getVitalsByPatient(req.params.patientId);
   const body: ApiResponse = { success: true, data: vitals };
   res.json(body);
 });
 
 // ─── GET /api/vitals/:id ────────────────────────────────────────────
 
-router.get('/:id', (req: Request, res: Response): void => {
-  const vital = store.getVitalById(req.params.id);
+router.get('/:id', async (req: Request, res: Response): Promise<void> => {
+  const vital = await store.getVitalById(req.params.id);
   if (!vital) {
     const body: ApiResponse = { success: false, error: 'Vital record not found' };
     res.status(404).json(body);
@@ -52,7 +52,7 @@ router.post(
     body('oxygen_level').isInt({ min: 0, max: 100 }).withMessage('Oxygen level must be 0-100'),
     body('weight').isFloat({ min: 0 }).withMessage('Weight must be non-negative'),
   ],
-  (req: Request, res: Response): void => {
+  async (req: Request, res: Response): Promise<void> => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       const body: ApiResponse = { success: false, error: errors.array().map(e => e.msg).join(', ') };
@@ -60,7 +60,7 @@ router.post(
       return;
     }
 
-    const patient = store.getPatientById(req.body.patient_id);
+    const patient = await store.getPatientById(req.body.patient_id);
 
     const newVital: Vitals = {
       id: generateId(),
@@ -75,7 +75,7 @@ router.post(
       recorded_at: nowISO(),
     };
 
-    store.createVital(newVital);
+    await store.createVital(newVital);
     const body: ApiResponse = { success: true, data: newVital, message: 'Vitals recorded' };
     res.status(201).json(body);
   },
@@ -83,8 +83,8 @@ router.post(
 
 // ─── DELETE /api/vitals/:id ─────────────────────────────────────────
 
-router.delete('/:id', authorize('admin', 'nurse'), (req: Request, res: Response): void => {
-  const success = store.deleteVital(req.params.id);
+router.delete('/:id', authorize('admin', 'nurse'), async (req: Request, res: Response): Promise<void> => {
+  const success = await store.deleteVital(req.params.id);
   if (!success) {
     const body: ApiResponse = { success: false, error: 'Vital record not found' };
     res.status(404).json(body);

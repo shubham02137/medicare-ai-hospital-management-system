@@ -12,8 +12,8 @@ router.use(authenticate);
 
 // ─── GET /api/billings ──────────────────────────────────────────────
 
-router.get('/', (req: Request, res: Response): void => {
-  let billings = store.getBillings();
+router.get('/', async (req: Request, res: Response): Promise<void> => {
+  let billings = await store.getBillings();
   const { payment_status } = req.query;
   if (payment_status) {
     billings = billings.filter(b => b.payment_status === payment_status);
@@ -24,16 +24,16 @@ router.get('/', (req: Request, res: Response): void => {
 
 // ─── GET /api/billings/patient/:patientId ───────────────────────────
 
-router.get('/patient/:patientId', (req: Request, res: Response): void => {
-  const billings = store.getBillingsByPatient(req.params.patientId);
+router.get('/patient/:patientId', async (req: Request, res: Response): Promise<void> => {
+  const billings = await store.getBillingsByPatient(req.params.patientId);
   const body: ApiResponse = { success: true, data: billings };
   res.json(body);
 });
 
 // ─── GET /api/billings/:id ──────────────────────────────────────────
 
-router.get('/:id', (req: Request, res: Response): void => {
-  const billing = store.getBillingById(req.params.id);
+router.get('/:id', async (req: Request, res: Response): Promise<void> => {
+  const billing = await store.getBillingById(req.params.id);
   if (!billing) {
     const body: ApiResponse = { success: false, error: 'Billing record not found' };
     res.status(404).json(body);
@@ -53,7 +53,7 @@ router.post(
     body('consultation_fee').isFloat({ min: 0 }).withMessage('Consultation fee must be non-negative'),
     body('total_amount').isFloat({ min: 0 }).withMessage('Total amount must be non-negative'),
   ],
-  (req: Request, res: Response): void => {
+  async (req: Request, res: Response): Promise<void> => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       const body: ApiResponse = { success: false, error: errors.array().map(e => e.msg).join(', ') };
@@ -61,7 +61,7 @@ router.post(
       return;
     }
 
-    const patient = store.getPatientById(req.body.patient_id);
+    const patient = await store.getPatientById(req.body.patient_id);
 
     const newBilling: Billing = {
       id: generateId(),
@@ -76,7 +76,7 @@ router.post(
       created_at: nowISO(),
     };
 
-    store.createBilling(newBilling);
+    await store.createBilling(newBilling);
     const body: ApiResponse = { success: true, data: newBilling, message: 'Billing record created' };
     res.status(201).json(body);
   },

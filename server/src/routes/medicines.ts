@@ -12,34 +12,34 @@ router.use(authenticate);
 
 // ─── GET /api/medicines ─────────────────────────────────────────────
 
-router.get('/', (_req: Request, res: Response): void => {
-  const medicines = store.getMedicines();
+router.get('/', async (_req: Request, res: Response): Promise<void> => {
+  const medicines = await store.getMedicines();
   const body: ApiResponse = { success: true, data: medicines };
   res.json(body);
 });
 
 // ─── GET /api/medicines/low-stock ───────────────────────────────────
 
-router.get('/low-stock', (req: Request, res: Response): void => {
+router.get('/low-stock', async (req: Request, res: Response): Promise<void> => {
   const threshold = parseInt(req.query.threshold as string) || 20;
-  const medicines = store.getLowStockMedicines(threshold);
+  const medicines = await store.getLowStockMedicines(threshold);
   const body: ApiResponse = { success: true, data: medicines };
   res.json(body);
 });
 
 // ─── GET /api/medicines/expiring ────────────────────────────────────
 
-router.get('/expiring', (req: Request, res: Response): void => {
+router.get('/expiring', async (req: Request, res: Response): Promise<void> => {
   const days = parseInt(req.query.days as string) || 90;
-  const medicines = store.getExpiringMedicines(days);
+  const medicines = await store.getExpiringMedicines(days);
   const body: ApiResponse = { success: true, data: medicines };
   res.json(body);
 });
 
 // ─── GET /api/medicines/:id ─────────────────────────────────────────
 
-router.get('/:id', (req: Request, res: Response): void => {
-  const med = store.getMedicineById(req.params.id);
+router.get('/:id', async (req: Request, res: Response): Promise<void> => {
+  const med = await store.getMedicineById(req.params.id);
   if (!med) {
     const body: ApiResponse = { success: false, error: 'Medicine not found' };
     res.status(404).json(body);
@@ -61,7 +61,7 @@ router.post(
     body('expiry_date').notEmpty().withMessage('Expiry date is required'),
     body('price').isFloat({ min: 0 }).withMessage('Price must be a non-negative number'),
   ],
-  (req: Request, res: Response): void => {
+  async (req: Request, res: Response): Promise<void> => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       const body: ApiResponse = { success: false, error: errors.array().map(e => e.msg).join(', ') };
@@ -80,7 +80,7 @@ router.post(
       created_at: nowISO(),
     };
 
-    store.createMedicine(newMed);
+    await store.createMedicine(newMed);
     const body: ApiResponse = { success: true, data: newMed, message: 'Medicine added' };
     res.status(201).json(body);
   },
@@ -88,8 +88,8 @@ router.post(
 
 // ─── PUT /api/medicines/:id ─────────────────────────────────────────
 
-router.put('/:id', authorize('admin', 'pharmacist'), (req: Request, res: Response): void => {
-  const updated = store.updateMedicine(req.params.id, req.body);
+router.put('/:id', authorize('admin', 'pharmacist'), async (req: Request, res: Response): Promise<void> => {
+  const updated = await store.updateMedicine(req.params.id, req.body);
   if (!updated) {
     const body: ApiResponse = { success: false, error: 'Medicine not found' };
     res.status(404).json(body);
@@ -101,8 +101,8 @@ router.put('/:id', authorize('admin', 'pharmacist'), (req: Request, res: Respons
 
 // ─── DELETE /api/medicines/:id ──────────────────────────────────────
 
-router.delete('/:id', authorize('admin', 'pharmacist'), (req: Request, res: Response): void => {
-  const deleted = store.deleteMedicine(req.params.id);
+router.delete('/:id', authorize('admin', 'pharmacist'), async (req: Request, res: Response): Promise<void> => {
+  const deleted = await store.deleteMedicine(req.params.id);
   if (!deleted) {
     const body: ApiResponse = { success: false, error: 'Medicine not found' };
     res.status(404).json(body);

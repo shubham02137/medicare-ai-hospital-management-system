@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { env } from './config/env';
 import { errorHandler } from './middleware/errorHandler';
+import { initDb } from './data/store';
 
 // Import route handlers
 import authRouter from './routes/auth';
@@ -65,12 +66,21 @@ app.use('/api/ai', aiRouter);
 // Global Error Handler Middleware
 app.use(errorHandler);
 
-// Start listening for requests
-app.listen(port, () => {
-  console.log(`🚀 MediCare AI Backend Server running at http://localhost:${port}`);
-  console.log(`🧠 AI features are using: ${env.hasAIKey ? 'Gemini Pro API' : 'Demo Mock Responses'}`);
+// Initialize database and start listening for requests
+initDb().then(() => {
+  app.listen(port, () => {
+    console.log(`🚀 MediCare AI Backend Server running at http://localhost:${port}`);
+    console.log(`🧠 AI features are using: ${env.hasAIKey ? 'Gemini Pro API' : 'Demo Mock Responses'}`);
+  });
+}).catch(err => {
+  console.error('Failed to initialize database:', err);
+  process.exit(1);
 });
 
 export default app;
 
-// Restart timestamp: 2026-06-05T12:54:18.744Z
+
+
+
+
+// Restart timestamp: 2026-06-14T18:19:10.000Z

@@ -86,8 +86,8 @@ async function runPersistenceTest() {
     content += `\n// Restart timestamp: ${new Date().toISOString()}`;
     fs.writeFileSync(indexPath, content, 'utf-8');
 
-    console.log('Waiting 5 seconds for backend to compile and restart...');
-    await delay(5000);
+    console.log('Waiting 10 seconds for backend to compile and restart...');
+    await delay(10000);
 
     console.log('\n[3] Attempting login with the same credentials after restart...');
     const loginRes = await postRequest('/auth/login', {

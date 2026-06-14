@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "usr-001",
+      "id": "b75b61b9-e63c-447d-8151-fd09e78b53a4",
       "email": "admin@medicare.com",
       "password_hash": "$2b$10$8Oz7Ql/VMpbiDu3a.A71OO05E/9ZJ.SFzp1WEakXvUY1KjZeo2fDq",
       "role": "admin",
@@ -9,11 +9,11 @@
       "phone": "+91-9876543299",
       "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
       "is_active": true,
-      "created_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2026-06-06T10:28:18.461Z"
     },
     {
-      "id": "usr-002",
+      "id": "cc0ff307-f175-4d7c-b38b-6c8594dde947",
       "email": "doctor@medicare.com",
       "password_hash": "$2b$10$qLR5lx/fzmXkQi6Zhk8SauX7N3J7qtS3kpTREnwAjR8cSw0kUzcZu",
       "role": "doctor",
@@ -21,11 +21,11 @@
       "phone": "+91-9876543298",
       "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=200",
       "is_active": true,
-      "created_at": "2025-01-02T00:00:00Z",
+      "created_at": "2025-01-02T00:00:00.000Z",
       "updated_at": "2026-06-06T10:28:19.079Z"
     },
     {
-      "id": "usr-003",
+      "id": "641aeaad-15b4-4e76-9a4b-4f9647d8ab74",
       "email": "nurse@medicare.com",
       "password_hash": "$2b$10$TFDtPZ52EEH2JJBTL7E9tORj33tPPSGawsHYXFUJbfwABLAtD3Aw2",
       "role": "nurse",
@@ -33,11 +33,11 @@
       "phone": "+91-9876543296",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-03T00:00:00Z",
+      "created_at": "2025-01-03T00:00:00.000Z",
       "updated_at": "2026-06-06T10:28:18.756Z"
     },
     {
-      "id": "usr-004",
+      "id": "a390c19f-8014-4ef5-93ce-442970c7645e",
       "email": "reception@medicare.com",
       "password_hash": "$2b$10$VTqpm6KwS.faS1D2ofOlb.h1BhsUud.BM6.f7xaG/FOQNq2hdR3FW",
       "role": "receptionist",
@@ -45,11 +45,11 @@
       "phone": "+91-9876543295",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-04T00:00:00Z",
+      "created_at": "2025-01-04T00:00:00.000Z",
       "updated_at": "2026-06-06T10:28:18.837Z"
     },
     {
-      "id": "usr-005",
+      "id": "223fa1d1-df0d-48f5-a27b-f9d924eace36",
       "email": "patient@medicare.com",
       "password_hash": "$2b$10$qcHXovbh3CPJ2LPCEbx7Ku/m84C1XEuDpAWdHZgqN/EBc5d14WdzG",
       "role": "patient",
@@ -57,11 +57,11 @@
       "phone": "+91-9876543297",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-05T00:00:00Z",
+      "created_at": "2025-01-05T00:00:00.000Z",
       "updated_at": "2026-06-06T10:28:19.156Z"
     },
     {
-      "id": "usr-006",
+      "id": "62476612-11b8-42e5-aec5-3ba26b09b8d7",
       "email": "pharma@medicare.com",
       "password_hash": "$2b$10$tscgLs36FatonTeJ2Q7sm.kjW1lb94Tpb1ljBik8534OinAD/XBHW",
       "role": "pharmacist",
@@ -69,11 +69,11 @@
       "phone": "+91-9876543294",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-06T00:00:00Z",
+      "created_at": "2025-01-06T00:00:00.000Z",
       "updated_at": "2026-06-06T10:28:18.919Z"
     },
     {
-      "id": "usr-007",
+      "id": "de1970d0-eedd-4735-88fe-a670cea31208",
       "email": "lab@medicare.com",
       "password_hash": "$2b$10$MqM.rqmzPlKjPDPzR/TYK.W/M0b7R6oR7jFc.CdLwjQAauINu1FgW",
       "role": "lab_technician",
@@ -81,11 +81,11 @@
       "phone": "+91-9876543293",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-07T00:00:00Z",
+      "created_at": "2025-01-07T00:00:00.000Z",
       "updated_at": "2026-06-06T10:28:19.001Z"
     },
     {
-      "id": "usr-008",
+      "id": "82b291c9-0564-484d-88b0-705899483d32",
       "email": "doctor2@medicare.com",
       "password_hash": "$2b$10$UOVnTN.WzGwy0k4D5MD.0e1fL/xSVlgA8IpELhOjMPWs7B4RB6Yke",
       "role": "doctor",
@@ -93,11 +93,11 @@
       "phone": "+91-9876543217",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-009",
+      "id": "5e6c5906-e37c-4ef9-b48d-7c294ba43e9a",
       "email": "gupta@medicare.com",
       "password_hash": "$2b$10$Xcyo5rddrolbmZz6lspEtefirUlFA.nRSQJINFclZDLpqgpDJjfom",
       "role": "doctor",
@@ -105,11 +105,11 @@
       "phone": "+91-9876543218",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-011",
+      "id": "3aed1e54-684f-402a-9c7d-f249a371c067",
       "email": "singh@medicare.com",
       "password_hash": "$2b$10$DG3XBmm5X/HcbDOTU9NW..3L3QzrLkX3CspPQZRa8sbnzavB2JQ02",
       "role": "doctor",
@@ -117,11 +117,11 @@
       "phone": "+91-9876543219",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-012",
+      "id": "1fd36b0f-0cc3-4b7d-98aa-d001ae71bcab",
       "email": "rao@medicare.com",
       "password_hash": "$2b$10$VeIB5q8O6aJ/l9nDm5.pn.Eag2I.IxhaHVPSkKm9lDN/lKKND.YZa",
       "role": "doctor",
@@ -129,11 +129,11 @@
       "phone": "+91-9876543220",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-013",
+      "id": "550937f9-bdff-4698-bb63-d5f59d145c7d",
       "email": "jain@medicare.com",
       "password_hash": "$2b$10$dMrnZuy7Y6Gdz/4tomxC6eE8dCm1oqeDeXkBDZmgwnrbghGczRQ2u",
       "role": "doctor",
@@ -141,11 +141,11 @@
       "phone": "+91-9876543221",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-014",
+      "id": "4334d275-820b-44b5-8cbc-57b23f757ba8",
       "email": "kapoor@medicare.com",
       "password_hash": "$2b$10$v6HaG4lsb3EO3TuclcxzSeVeFp3VtUurlkdAG8vS8OhQogUHuOHlK",
       "role": "doctor",
@@ -153,11 +153,11 @@
       "phone": "+91-9876543222",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-015",
+      "id": "86826b90-e6b4-4159-ad30-35e29e130043",
       "email": "mehta@medicare.com",
       "password_hash": "$2b$10$1MNWcBubFpNEHyQwh/cXYusF1UOmOK85AgZAScwU8uTUUTj00sDbG",
       "role": "doctor",
@@ -165,11 +165,11 @@
       "phone": "+91-9876543223",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-016",
+      "id": "ade2fcc9-aaed-4b94-8ce0-92953ae27cce",
       "email": "shah@medicare.com",
       "password_hash": "$2b$10$8vC4l8tpnvSPpHonjdMY6uNntFWUDaxRnUKfujnlAwI.zoRf3fy1K",
       "role": "doctor",
@@ -177,11 +177,11 @@
       "phone": "+91-9876543224",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-017",
+      "id": "14fe48c6-7b16-4a1c-85d2-f6bd6042b6b6",
       "email": "nair@medicare.com",
       "password_hash": "$2b$10$2QguVv7M..4v8uyPGnTnSO5HFR1ZbrDhW7zfNFKl6wP0MilsDgB06",
       "role": "doctor",
@@ -189,11 +189,11 @@
       "phone": "+91-9876543225",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-018",
+      "id": "ed501fe1-de2d-4e9b-865a-d137d5e745b9",
       "email": "malhotra@medicare.com",
       "password_hash": "$2b$10$IVJBoWBzdiK6xbql2TZsQ.OofEfAF4jp0b4C7SOfaVCHJ0nxxqQ4i",
       "role": "doctor",
@@ -201,11 +201,11 @@
       "phone": "+91-9876543226",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
-      "id": "usr-019",
+      "id": "167c45fc-b576-4985-a430-6578bc51b04c",
       "email": "akapoor@medicare.com",
       "password_hash": "$2b$10$CDoE4TnDD4XMR438PwijxOacC1qm0HcG.6Ue.zfeeLtBqVJml6Qiy",
       "role": "doctor",
@@ -213,8 +213,8 @@
       "phone": "+91-9876543227",
       "avatar": "",
       "is_active": true,
-      "created_at": "2025-01-08T00:00:00Z",
-      "updated_at": "2025-01-08T00:00:00Z"
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "updated_at": "2025-01-08T00:00:00.000Z"
     },
     {
       "id": "620d5fd3-8554-4e1f-99a9-0d6a55c719bf",
@@ -223,6 +223,7 @@
       "role": "patient",
       "full_name": "Test Persistence User",
       "phone": "+91-1111111111",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-05T12:54:18.729Z",
       "updated_at": "2026-06-05T12:54:18.729Z"
@@ -234,6 +235,7 @@
       "role": "doctor",
       "full_name": "Dr. John Doe",
       "phone": "+91-9999988888",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-05T12:54:28.959Z",
       "updated_at": "2026-06-05T12:54:28.959Z"
@@ -245,6 +247,7 @@
       "role": "patient",
       "full_name": "Patient",
       "phone": "9988776655",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-05T12:56:58.261Z",
       "updated_at": "2026-06-05T12:56:58.261Z"
@@ -256,6 +259,7 @@
       "role": "doctor",
       "full_name": "Doctor",
       "phone": "9966331166",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-05T13:16:13.707Z",
       "updated_at": "2026-06-05T13:16:13.707Z"
@@ -267,6 +271,7 @@
       "role": "lab_technician",
       "full_name": "lab",
       "phone": "9977553344",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-05T14:17:27.282Z",
       "updated_at": "2026-06-05T14:17:27.282Z"
@@ -278,6 +283,7 @@
       "role": "patient",
       "full_name": "Patient",
       "phone": "9966334422",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-05T14:18:52.068Z",
       "updated_at": "2026-06-05T14:18:52.068Z"
@@ -289,6 +295,7 @@
       "role": "doctor",
       "full_name": "Doctor",
       "phone": "9966553311",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-05T14:20:17.455Z",
       "updated_at": "2026-06-05T14:20:17.455Z"
@@ -300,6 +307,7 @@
       "role": "admin",
       "full_name": "Admin",
       "phone": "9988776655",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-05T14:36:13.258Z",
       "updated_at": "2026-06-05T14:36:13.258Z"
@@ -311,6 +319,7 @@
       "role": "receptionist",
       "full_name": "Reception",
       "phone": "9334411888",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-05T14:38:43.544Z",
       "updated_at": "2026-06-05T14:38:43.544Z"
@@ -322,6 +331,7 @@
       "role": "pharmacist",
       "full_name": "Pharma",
       "phone": "9955916933",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-06T09:54:32.601Z",
       "updated_at": "2026-06-06T09:54:32.601Z"
@@ -333,71 +343,122 @@
       "role": "nurse",
       "full_name": "Nurse",
       "phone": "9988776655",
+      "avatar": "",
       "is_active": true,
       "created_at": "2026-06-06T09:58:22.642Z",
       "updated_at": "2026-06-06T09:58:22.642Z"
+    },
+    {
+      "id": "4ecc46c0-55f7-42de-ae77-1e7a5927cfd2",
+      "email": "newdoc_1781460759742@medicare.com",
+      "password_hash": "$2b$10$/eHlHEuncxA7P0lvtq2ZSO7lZ4BIvgrZG3.U25E0KDMVYgkmn6zfW",
+      "role": "doctor",
+      "full_name": "Dr. John Doe",
+      "phone": "+91-9999988888",
+      "avatar": "",
+      "is_active": true,
+      "created_at": "2026-06-14T18:12:39.971Z",
+      "updated_at": "2026-06-14T18:12:39.971Z"
+    },
+    {
+      "id": "643e5a48-ceb7-4ddb-ae0b-0b39f8800abe",
+      "email": "newdoc_1781460865783@medicare.com",
+      "password_hash": "$2b$10$FNFQ/ifu4L2hmr7rNlMxBOBIWTKxksX5L0Yz59fXBI/HqJf/WT9vq",
+      "role": "doctor",
+      "full_name": "Dr. John Doe",
+      "phone": "+91-9999988888",
+      "avatar": "",
+      "is_active": true,
+      "created_at": "2026-06-14T18:14:25.973Z",
+      "updated_at": "2026-06-14T18:14:25.973Z"
+    },
+    {
+      "id": "0b256d36-ba7a-4607-a691-61419d495618",
+      "email": "newdoc_1781461036421@medicare.com",
+      "password_hash": "$2b$10$D6VG.Q4iAZWWSgKSogYcz.xnrlMe/P.Y3Cb1XmHOVWBT/TUY7HcSq",
+      "role": "doctor",
+      "full_name": "Dr. John Doe",
+      "phone": "+91-9999988888",
+      "avatar": "",
+      "is_active": true,
+      "created_at": "2026-06-14T18:17:16.602Z",
+      "updated_at": "2026-06-14T18:17:16.602Z"
+    },
+    {
+      "id": "919cf612-ac6a-45d8-8e21-f1f34486d8b5",
+      "email": "newdoc_1781461217825@medicare.com",
+      "password_hash": "$2b$10$koEaDk7rOM4HvZwxpMpmveKQWeqw1.G5Uk5cud34cj.96EoIX6c.6",
+      "role": "doctor",
+      "full_name": "Dr. John Doe",
+      "phone": "+91-9999988888",
+      "is_active": true,
+      "created_at": "2026-06-14T18:20:18.004Z",
+      "updated_at": "2026-06-14T18:20:18.004Z"
     }
   ],
   "departments": [
     {
-      "id": "dep-001",
+      "id": "7e444ead-30c2-415a-bf4a-7c1a88494f34",
       "name": "Cardiology",
       "description": "Heart and cardiovascular system",
-      "head_doctor_id": "usr-002",
-      "created_at": "2025-01-01T00:00:00Z"
+      "head_doctor_id": "cc0ff307-f175-4d7c-b38b-6c8594dde947",
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "dep-002",
+      "id": "4d92b267-abc6-4711-9555-953d1a7bdbf3",
       "name": "Neurology",
       "description": "Brain and nervous system",
-      "head_doctor_id": "usr-008",
-      "created_at": "2025-01-01T00:00:00Z"
+      "head_doctor_id": "82b291c9-0564-484d-88b0-705899483d32",
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "dep-003",
+      "id": "2257e2d2-5d84-4222-bdbb-7957c1be030c",
       "name": "Orthopedics",
       "description": "Bones, joints, and muscles",
-      "created_at": "2025-01-01T00:00:00Z"
+      "head_doctor_id": null,
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "dep-004",
+      "id": "61e1b5c5-31cb-4d5d-98ba-08742aa85fbb",
       "name": "Pediatrics",
       "description": "Child healthcare",
-      "created_at": "2025-01-01T00:00:00Z"
+      "head_doctor_id": null,
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "dep-005",
+      "id": "f618a31b-cb0f-4439-b433-516e1938888a",
       "name": "Dermatology",
       "description": "Skin, hair, and nails",
-      "created_at": "2025-01-01T00:00:00Z"
+      "head_doctor_id": null,
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "dep-006",
+      "id": "e2983620-a359-4652-8fd3-95222833680c",
       "name": "General Medicine",
       "description": "General healthcare and diagnostics",
-      "created_at": "2025-01-01T00:00:00Z"
+      "head_doctor_id": null,
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "dep-007",
+      "id": "af815cb5-70c8-4936-92dd-127e23a89a30",
       "name": "Ophthalmology",
       "description": "Eye care and vision",
-      "created_at": "2025-01-01T00:00:00Z"
+      "head_doctor_id": null,
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "dep-008",
+      "id": "4f42d58f-2ed6-4b61-ac7a-733d8549ac43",
       "name": "ENT",
       "description": "Ear, nose, and throat",
-      "created_at": "2025-01-01T00:00:00Z"
+      "head_doctor_id": null,
+      "created_at": "2025-01-01T00:00:00.000Z"
     }
   ],
   "patients": [
     {
-      "id": "pat-001",
-      "user_id": "usr-005",
-      "full_name": "Rahul Verma Updated",
-      "email": "patient@medicare.com",
-      "phone": "+91-9876543297",
-      "date_of_birth": "1990-05-15",
+      "id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "user_id": "223fa1d1-df0d-48f5-a27b-f9d924eace36",
+      "date_of_birth": "1990-05-14",
       "gender": "male",
       "blood_group": "B+",
       "address": "456 MG Road, Bangalore, India",
@@ -406,471 +467,580 @@
         "Hypertension",
         "Asthma"
       ],
-      "created_at": "2025-01-05T00:00:00Z",
-      "age": 36,
       "allergies": [
         "Peanuts",
         "Penicillin"
-      ]
-    },
-    {
-      "id": "pat-002",
-      "user_id": "",
-      "full_name": "Ananya Desai",
-      "email": "ananya@email.com",
-      "phone": "+91-9876543220",
-      "date_of_birth": "1985-08-22",
-      "gender": "female",
-      "blood_group": "A+",
-      "address": "45, Koramangala, Bangalore",
-      "emergency_contact": "+91-9876000002",
-      "medical_history": [
-        "Asthma"
       ],
-      "created_at": "2025-02-10T00:00:00Z"
+      "created_at": "2025-01-05T00:00:00.000Z",
+      "full_name": "Rahul Verma Updated",
+      "email": "patient@medicare.com",
+      "phone": "+91-9876543297"
     },
     {
-      "id": "pat-003",
-      "user_id": "",
-      "full_name": "Arjun Mehta",
-      "email": "arjun@email.com",
-      "phone": "+91-9876543221",
-      "date_of_birth": "1978-12-03",
+      "id": "67b1ad08-6cbf-4e57-964e-81e9c67d6ac2",
+      "user_id": "620d5fd3-8554-4e1f-99a9-0d6a55c719bf",
+      "date_of_birth": "1989-12-31",
       "gender": "male",
       "blood_group": "O+",
-      "address": "78, Indiranagar, Bangalore",
-      "emergency_contact": "+91-9876000003",
-      "medical_history": [
-        "Heart Disease",
-        "High Cholesterol"
-      ],
-      "created_at": "2025-03-15T00:00:00Z"
-    },
-    {
-      "id": "pat-004",
-      "user_id": "",
-      "full_name": "Sneha Nair",
-      "email": "sneha@email.com",
-      "phone": "+91-9876543222",
-      "date_of_birth": "1995-03-18",
-      "gender": "female",
-      "blood_group": "AB-",
-      "address": "12, JP Nagar, Bangalore",
-      "emergency_contact": "+91-9876000004",
+      "address": "",
+      "emergency_contact": "",
       "medical_history": [],
-      "created_at": "2025-04-01T00:00:00Z"
-    },
-    {
-      "id": "pat-005",
-      "user_id": "",
-      "full_name": "Kiran Rao",
-      "email": "kiran@email.com",
-      "phone": "+91-9876543223",
-      "date_of_birth": "2000-11-30",
-      "gender": "male",
-      "blood_group": "O-",
-      "address": "56, Whitefield, Bangalore",
-      "emergency_contact": "+91-9876000005",
-      "medical_history": [
-        "Migraine"
-      ],
-      "created_at": "2025-04-20T00:00:00Z"
-    },
-    {
-      "id": "pat-d64ecef5d417",
-      "user_id": "620d5fd3-8554-4e1f-99a9-0d6a55c719bf",
+      "allergies": [],
+      "created_at": "2026-06-05T12:54:18.729Z",
       "full_name": "Test Persistence User",
       "email": "persist_1780664058611@medicare.com",
-      "phone": "+91-1111111111",
-      "date_of_birth": "1990-01-01",
+      "phone": "+91-1111111111"
+    },
+    {
+      "id": "7eb9e23f-738f-484e-8f8b-9396c8c75446",
+      "user_id": "c9ad2430-f39e-4e07-8bb5-c9e093cc3933",
+      "date_of_birth": "1989-12-31",
       "gender": "male",
       "blood_group": "O+",
       "address": "",
       "emergency_contact": "",
       "medical_history": [],
-      "created_at": "2026-06-05T12:54:18.729Z"
-    },
-    {
-      "id": "pat-83bb6fb9d0b5",
-      "user_id": "c9ad2430-f39e-4e07-8bb5-c9e093cc3933",
+      "allergies": [],
+      "created_at": "2026-06-05T12:56:58.261Z",
       "full_name": "Patient",
       "email": "patient@gmail.com",
-      "phone": "9988776655",
-      "date_of_birth": "1990-01-01",
-      "gender": "male",
-      "blood_group": "O+",
-      "address": "",
-      "emergency_contact": "",
-      "medical_history": [],
-      "created_at": "2026-06-05T12:56:58.261Z"
+      "phone": "9988776655"
     },
     {
-      "id": "pat-4979a6d732f4",
-      "user_id": "",
-      "full_name": "Patient",
-      "email": "patientt@gmail.com",
-      "phone": "9966334422",
-      "date_of_birth": "1990-01-01",
-      "gender": "male",
-      "blood_group": "B+",
-      "address": "Patna, BR-800001",
-      "emergency_contact": "9988554411",
-      "medical_history": "Chest pain",
-      "created_at": "2026-06-05T14:18:52.068Z"
-    },
-    {
-      "id": "pat-66ccadaefee4",
+      "id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
       "user_id": "8279c2c5-691b-4ab2-b075-88dd8ef74255",
-      "full_name": "Patient",
-      "email": "patientt@gmail.com",
-      "phone": "9966334422",
-      "date_of_birth": "1990-01-01",
+      "date_of_birth": "1989-12-31",
       "gender": "male",
       "blood_group": "O+",
       "address": "",
       "emergency_contact": "",
       "medical_history": [],
-      "created_at": "2026-06-05T14:18:52.068Z"
+      "allergies": [],
+      "created_at": "2026-06-05T14:18:52.068Z",
+      "full_name": "Patient",
+      "email": "patientt@gmail.com",
+      "phone": "9966334422"
     }
   ],
   "doctors": [
     {
-      "id": "doc-001",
-      "user_id": "usr-002",
-      "full_name": "Dr. Priya Sharma Updated",
-      "email": "doctor@medicare.com",
-      "phone": "+91-9876543298",
-      "department_id": "dep-001",
-      "department_name": "Cardiology",
-      "specialization": "Advanced Cardiology & Arrhythmia",
-      "experience_years": 15,
-      "availability": [
-        {
-          "day": "Monday",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "Wednesday",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "Friday",
-          "start": "09:00",
-          "end": "13:00"
-        }
-      ],
-      "consultation_fee": 1200,
-      "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=200",
-      "created_at": "2025-01-02T00:00:00Z",
-      "qualification": "MD, DM (Cardiology)",
-      "available_days": [
-        "Monday",
-        "Wednesday",
-        "Friday"
-      ],
-      "available_time": "10:00 - 16:00",
-      "license_number": "MC-12345"
-    },
-    {
-      "id": "doc-002",
-      "user_id": "usr-008",
-      "full_name": "Dr. Amit Verma",
-      "email": "doctor2@medicare.com",
-      "phone": "+91-9876543217",
-      "department_id": "dep-002",
-      "department_name": "Neurology",
-      "specialization": "Neurophysiology",
-      "experience_years": 15,
-      "availability": [
-        {
-          "day": "Tuesday",
-          "start": "10:00",
-          "end": "18:00"
-        },
-        {
-          "day": "Thursday",
-          "start": "10:00",
-          "end": "18:00"
-        },
-        {
-          "day": "Saturday",
-          "start": "09:00",
-          "end": "14:00"
-        }
-      ],
-      "consultation_fee": 1000,
-      "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
-    },
-    {
-      "id": "doc-003",
-      "user_id": "usr-009",
-      "full_name": "Dr. Rajesh Gupta",
-      "email": "gupta@medicare.com",
-      "phone": "+91-9876543218",
-      "department_id": "dep-001",
-      "department_name": "Cardiology",
+      "id": "7e8e811f-4578-4e40-96a6-ced119774c3e",
+      "user_id": "5e6c5906-e37c-4ef9-b48d-7c294ba43e9a",
+      "department_id": "7e444ead-30c2-415a-bf4a-7c1a88494f34",
       "specialization": "Clinical Cardiology",
       "experience_years": 10,
       "availability": [
         {
           "day": "Tuesday",
-          "start": "09:00",
-          "end": "17:00"
+          "end": "17:00",
+          "start": "09:00"
         },
         {
           "day": "Thursday",
-          "start": "09:00",
-          "end": "17:00"
+          "end": "17:00",
+          "start": "09:00"
         }
       ],
-      "consultation_fee": 750,
+      "consultation_fee": "750.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Rajesh Gupta",
+      "email": "gupta@medicare.com",
+      "phone": "+91-9876543218",
       "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
+      "department_name": "Cardiology"
     },
     {
-      "id": "doc-005",
-      "user_id": "usr-011",
-      "full_name": "Dr. Neha Singh",
-      "email": "singh@medicare.com",
-      "phone": "+91-9876543219",
-      "department_id": "dep-002",
-      "department_name": "Neurology",
+      "id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "user_id": "cc0ff307-f175-4d7c-b38b-6c8594dde947",
+      "department_id": "7e444ead-30c2-415a-bf4a-7c1a88494f34",
+      "specialization": "Advanced Cardiology & Arrhythmia",
+      "experience_years": 15,
+      "availability": [
+        {
+          "day": "Monday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Wednesday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Friday",
+          "end": "13:00",
+          "start": "09:00"
+        }
+      ],
+      "consultation_fee": "1200.00",
+      "qualification": "MD, DM (Cardiology)",
+      "license_number": "MC-12345",
+      "created_at": "2025-01-02T00:00:00.000Z",
+      "full_name": "Dr. Priya Sharma Updated",
+      "email": "doctor@medicare.com",
+      "phone": "+91-9876543298",
+      "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=200",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "2c764cab-fd7c-4443-8675-e7ffedcc4f19",
+      "user_id": "3aed1e54-684f-402a-9c7d-f249a371c067",
+      "department_id": "4d92b267-abc6-4711-9555-953d1a7bdbf3",
       "specialization": "Cognitive Neurology",
       "experience_years": 8,
       "availability": [
         {
           "day": "Monday",
-          "start": "10:00",
-          "end": "16:00"
+          "end": "16:00",
+          "start": "10:00"
         },
         {
           "day": "Wednesday",
-          "start": "10:00",
-          "end": "16:00"
+          "end": "16:00",
+          "start": "10:00"
         }
       ],
-      "consultation_fee": 900,
+      "consultation_fee": "900.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Neha Singh",
+      "email": "singh@medicare.com",
+      "phone": "+91-9876543219",
       "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
+      "department_name": "Neurology"
     },
     {
-      "id": "doc-006",
-      "user_id": "usr-012",
-      "full_name": "Dr. Vikram Rao",
-      "email": "rao@medicare.com",
-      "phone": "+91-9876543220",
-      "department_id": "dep-003",
-      "department_name": "Orthopedics",
-      "specialization": "Joint Replacement",
-      "experience_years": 14,
+      "id": "0aff9302-4f33-4b3a-92bb-ce09135c0428",
+      "user_id": "82b291c9-0564-484d-88b0-705899483d32",
+      "department_id": "4d92b267-abc6-4711-9555-953d1a7bdbf3",
+      "specialization": "Neurophysiology",
+      "experience_years": 15,
       "availability": [
         {
-          "day": "Monday",
-          "start": "09:00",
-          "end": "15:00"
+          "day": "Tuesday",
+          "end": "18:00",
+          "start": "10:00"
         },
         {
           "day": "Thursday",
-          "start": "09:00",
-          "end": "15:00"
+          "end": "18:00",
+          "start": "10:00"
+        },
+        {
+          "day": "Saturday",
+          "end": "14:00",
+          "start": "09:00"
         }
       ],
-      "consultation_fee": 850,
+      "consultation_fee": "1000.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Amit Verma",
+      "email": "doctor2@medicare.com",
+      "phone": "+91-9876543217",
       "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
+      "department_name": "Neurology"
     },
     {
-      "id": "doc-007",
-      "user_id": "usr-013",
-      "full_name": "Dr. Rohit Jain",
-      "email": "jain@medicare.com",
-      "phone": "+91-9876543221",
-      "department_id": "dep-003",
-      "department_name": "Orthopedics",
+      "id": "e35bb3fb-699d-40f0-ace0-add723d2ca1d",
+      "user_id": "550937f9-bdff-4698-bb63-d5f59d145c7d",
+      "department_id": "2257e2d2-5d84-4222-bdbb-7957c1be030c",
       "specialization": "Sports Medicine",
       "experience_years": 9,
       "availability": [
         {
           "day": "Tuesday",
-          "start": "11:00",
-          "end": "17:00"
+          "end": "17:00",
+          "start": "11:00"
         },
         {
           "day": "Friday",
-          "start": "11:00",
-          "end": "17:00"
+          "end": "17:00",
+          "start": "11:00"
         }
       ],
-      "consultation_fee": 750,
+      "consultation_fee": "750.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Rohit Jain",
+      "email": "jain@medicare.com",
+      "phone": "+91-9876543221",
       "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
+      "department_name": "Orthopedics"
     },
     {
-      "id": "doc-008",
-      "user_id": "usr-014",
-      "full_name": "Dr. Pooja Kapoor",
-      "email": "kapoor@medicare.com",
-      "phone": "+91-9876543222",
-      "department_id": "dep-005",
-      "department_name": "Dermatology",
-      "specialization": "Cosmetic Dermatology",
-      "experience_years": 11,
+      "id": "b7ba6df4-2989-4df4-9e18-fa777db5bc14",
+      "user_id": "1fd36b0f-0cc3-4b7d-98aa-d001ae71bcab",
+      "department_id": "2257e2d2-5d84-4222-bdbb-7957c1be030c",
+      "specialization": "Joint Replacement",
+      "experience_years": 14,
       "availability": [
         {
-          "day": "Wednesday",
-          "start": "09:00",
-          "end": "17:00"
+          "day": "Monday",
+          "end": "15:00",
+          "start": "09:00"
         },
         {
-          "day": "Saturday",
-          "start": "09:00",
-          "end": "14:00"
+          "day": "Thursday",
+          "end": "15:00",
+          "start": "09:00"
         }
       ],
-      "consultation_fee": 700,
+      "consultation_fee": "850.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Vikram Rao",
+      "email": "rao@medicare.com",
+      "phone": "+91-9876543220",
       "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
+      "department_name": "Orthopedics"
     },
     {
-      "id": "doc-009",
-      "user_id": "usr-015",
-      "full_name": "Dr. Arjun Mehta",
-      "email": "mehta@medicare.com",
-      "phone": "+91-9876543223",
-      "department_id": "dep-005",
-      "department_name": "Dermatology",
+      "id": "5e5d3b06-bfe8-452d-a3dc-95ae6aa899d0",
+      "user_id": "86826b90-e6b4-4159-ad30-35e29e130043",
+      "department_id": "f618a31b-cb0f-4439-b433-516e1938888a",
       "specialization": "Pediatric Dermatology",
       "experience_years": 7,
       "availability": [
         {
           "day": "Monday",
-          "start": "09:00",
-          "end": "16:00"
+          "end": "16:00",
+          "start": "09:00"
         },
         {
           "day": "Thursday",
-          "start": "09:00",
-          "end": "16:00"
+          "end": "16:00",
+          "start": "09:00"
         }
       ],
-      "consultation_fee": 650,
+      "consultation_fee": "650.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Arjun Mehta",
+      "email": "mehta@medicare.com",
+      "phone": "+91-9876543223",
       "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
+      "department_name": "Dermatology"
     },
     {
-      "id": "doc-010",
-      "user_id": "usr-016",
-      "full_name": "Dr. Kunal Shah",
-      "email": "shah@medicare.com",
-      "phone": "+91-9876543224",
-      "department_id": "dep-008",
-      "department_name": "ENT",
-      "specialization": "Otology",
-      "experience_years": 13,
-      "availability": [
-        {
-          "day": "Tuesday",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "Thursday",
-          "start": "09:00",
-          "end": "17:00"
-        }
-      ],
-      "consultation_fee": 800,
-      "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
-    },
-    {
-      "id": "doc-011",
-      "user_id": "usr-017",
-      "full_name": "Dr. Sneha Nair",
-      "email": "nair@medicare.com",
-      "phone": "+91-9876543225",
-      "department_id": "dep-008",
-      "department_name": "ENT",
-      "specialization": "Rhinology",
-      "experience_years": 8,
+      "id": "40f266b2-6cbc-4e0c-864e-a064dc00c434",
+      "user_id": "4334d275-820b-44b5-8cbc-57b23f757ba8",
+      "department_id": "f618a31b-cb0f-4439-b433-516e1938888a",
+      "specialization": "Cosmetic Dermatology",
+      "experience_years": 11,
       "availability": [
         {
           "day": "Wednesday",
-          "start": "10:00",
-          "end": "16:00"
+          "end": "17:00",
+          "start": "09:00"
         },
         {
-          "day": "Friday",
-          "start": "10:00",
-          "end": "16:00"
+          "day": "Saturday",
+          "end": "14:00",
+          "start": "09:00"
         }
       ],
-      "consultation_fee": 700,
+      "consultation_fee": "700.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Pooja Kapoor",
+      "email": "kapoor@medicare.com",
+      "phone": "+91-9876543222",
       "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
+      "department_name": "Dermatology"
     },
     {
-      "id": "doc-012",
-      "user_id": "usr-018",
-      "full_name": "Dr. Ritu Malhotra",
-      "email": "malhotra@medicare.com",
-      "phone": "+91-9876543226",
-      "department_id": "dep-007",
-      "department_name": "Ophthalmology",
-      "specialization": "Cataract & Refractive",
-      "experience_years": 12,
+      "id": "6a12efa1-7da5-4d0d-a169-0a20cb65abb9",
+      "user_id": "0b256d36-ba7a-4607-a691-61419d495618",
+      "department_id": "e2983620-a359-4652-8fd3-95222833680c",
+      "specialization": "General Medicine",
+      "experience_years": 5,
       "availability": [
         {
           "day": "Monday",
-          "start": "09:00",
-          "end": "17:00"
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Wednesday",
+          "end": "17:00",
+          "start": "09:00"
         },
         {
           "day": "Friday",
-          "start": "09:00",
-          "end": "17:00"
+          "end": "17:00",
+          "start": "09:00"
         }
       ],
-      "consultation_fee": 750,
+      "consultation_fee": "500.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2026-06-14T18:17:16.602Z",
+      "full_name": "Dr. John Doe",
+      "email": "newdoc_1781461036421@medicare.com",
+      "phone": "+91-9999988888",
       "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
+      "department_name": "General Medicine"
     },
     {
-      "id": "doc-013",
-      "user_id": "usr-019",
-      "full_name": "Dr. Aditya Kapoor",
-      "email": "akapoor@medicare.com",
-      "phone": "+91-9876543227",
-      "department_id": "dep-007",
-      "department_name": "Ophthalmology",
+      "id": "cdf3fbf4-e19c-4335-b398-80a23dda5112",
+      "user_id": "643e5a48-ceb7-4ddb-ae0b-0b39f8800abe",
+      "department_id": "e2983620-a359-4652-8fd3-95222833680c",
+      "specialization": "General Medicine",
+      "experience_years": 5,
+      "availability": [
+        {
+          "day": "Monday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Wednesday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Friday",
+          "end": "17:00",
+          "start": "09:00"
+        }
+      ],
+      "consultation_fee": "500.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2026-06-14T18:14:25.973Z",
+      "full_name": "Dr. John Doe",
+      "email": "newdoc_1781460865783@medicare.com",
+      "phone": "+91-9999988888",
+      "avatar": "",
+      "department_name": "General Medicine"
+    },
+    {
+      "id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "user_id": "e16c380b-cf76-42d5-abb7-51f455b7a555",
+      "department_id": "e2983620-a359-4652-8fd3-95222833680c",
+      "specialization": "General Medicine",
+      "experience_years": 5,
+      "availability": [
+        {
+          "day": "Monday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Wednesday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Friday",
+          "end": "17:00",
+          "start": "09:00"
+        }
+      ],
+      "consultation_fee": "500.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2026-06-05T14:20:17.455Z",
+      "full_name": "Doctor",
+      "email": "doctorr@gmail.com",
+      "phone": "9966553311",
+      "avatar": "",
+      "department_name": "General Medicine"
+    },
+    {
+      "id": "b2d2fac1-e895-47b5-9fce-fac7aaf699c3",
+      "user_id": "cdbaf56e-6122-48e5-b8c1-4b2f14bbb9be",
+      "department_id": "e2983620-a359-4652-8fd3-95222833680c",
+      "specialization": "General Medicine",
+      "experience_years": 5,
+      "availability": [
+        {
+          "day": "Monday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Wednesday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Friday",
+          "end": "17:00",
+          "start": "09:00"
+        }
+      ],
+      "consultation_fee": "500.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2026-06-05T13:16:13.707Z",
+      "full_name": "Doctor",
+      "email": "doctor@gmail.com",
+      "phone": "9966331166",
+      "avatar": "",
+      "department_name": "General Medicine"
+    },
+    {
+      "id": "fa98d759-17ff-4341-98ae-0449c1f6549a",
+      "user_id": "fbaf011d-d6e6-4ec4-ae76-8c6a1fafe0a5",
+      "department_id": "e2983620-a359-4652-8fd3-95222833680c",
+      "specialization": "General Medicine",
+      "experience_years": 5,
+      "availability": [
+        {
+          "day": "Monday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Wednesday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Friday",
+          "end": "17:00",
+          "start": "09:00"
+        }
+      ],
+      "consultation_fee": "500.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2026-06-05T12:54:28.959Z",
+      "full_name": "Dr. John Doe",
+      "email": "newdoc_1780664068880@medicare.com",
+      "phone": "+91-9999988888",
+      "avatar": "",
+      "department_name": "General Medicine"
+    },
+    {
+      "id": "8099bfb9-1de7-42b3-9310-fbdec805f495",
+      "user_id": "167c45fc-b576-4985-a430-6578bc51b04c",
+      "department_id": "af815cb5-70c8-4936-92dd-127e23a89a30",
       "specialization": "Glaucoma Specialist",
       "experience_years": 9,
       "availability": [
         {
           "day": "Tuesday",
-          "start": "09:00",
-          "end": "17:00"
+          "end": "17:00",
+          "start": "09:00"
         },
         {
           "day": "Wednesday",
-          "start": "09:00",
-          "end": "17:00"
+          "end": "17:00",
+          "start": "09:00"
         }
       ],
-      "consultation_fee": 800,
+      "consultation_fee": "800.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Aditya Kapoor",
+      "email": "akapoor@medicare.com",
+      "phone": "+91-9876543227",
       "avatar": "",
-      "created_at": "2025-01-08T00:00:00Z"
+      "department_name": "Ophthalmology"
     },
     {
-      "id": "doc-a07d126485a3",
-      "user_id": "fbaf011d-d6e6-4ec4-ae76-8c6a1fafe0a5",
+      "id": "1f0ae885-e96f-4a7f-87c6-4be66311c021",
+      "user_id": "ed501fe1-de2d-4e9b-865a-d137d5e745b9",
+      "department_id": "af815cb5-70c8-4936-92dd-127e23a89a30",
+      "specialization": "Cataract & Refractive",
+      "experience_years": 12,
+      "availability": [
+        {
+          "day": "Monday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Friday",
+          "end": "17:00",
+          "start": "09:00"
+        }
+      ],
+      "consultation_fee": "750.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Ritu Malhotra",
+      "email": "malhotra@medicare.com",
+      "phone": "+91-9876543226",
+      "avatar": "",
+      "department_name": "Ophthalmology"
+    },
+    {
+      "id": "413b9155-d13f-471b-a31c-6068e45e6802",
+      "user_id": "14fe48c6-7b16-4a1c-85d2-f6bd6042b6b6",
+      "department_id": "4f42d58f-2ed6-4b61-ac7a-733d8549ac43",
+      "specialization": "Rhinology",
+      "experience_years": 8,
+      "availability": [
+        {
+          "day": "Wednesday",
+          "end": "16:00",
+          "start": "10:00"
+        },
+        {
+          "day": "Friday",
+          "end": "16:00",
+          "start": "10:00"
+        }
+      ],
+      "consultation_fee": "700.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Sneha Nair",
+      "email": "nair@medicare.com",
+      "phone": "+91-9876543225",
+      "avatar": "",
+      "department_name": "ENT"
+    },
+    {
+      "id": "0648a5c1-a355-423d-be38-8dba780fe73b",
+      "user_id": "ade2fcc9-aaed-4b94-8ce0-92953ae27cce",
+      "department_id": "4f42d58f-2ed6-4b61-ac7a-733d8549ac43",
+      "specialization": "Otology",
+      "experience_years": 13,
+      "availability": [
+        {
+          "day": "Tuesday",
+          "end": "17:00",
+          "start": "09:00"
+        },
+        {
+          "day": "Thursday",
+          "end": "17:00",
+          "start": "09:00"
+        }
+      ],
+      "consultation_fee": "800.00",
+      "qualification": "",
+      "license_number": "",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "full_name": "Dr. Kunal Shah",
+      "email": "shah@medicare.com",
+      "phone": "+91-9876543224",
+      "avatar": "",
+      "department_name": "ENT"
+    },
+    {
+      "id": "ea199e03-84db-439c-938d-8bc63232e86e",
+      "user_id": "919cf612-ac6a-45d8-8e21-f1f34486d8b5",
       "full_name": "Dr. John Doe",
-      "email": "newdoc_1780664068880@medicare.com",
+      "email": "newdoc_1781461217825@medicare.com",
       "phone": "+91-9999988888",
-      "department_id": "dep-006",
+      "department_id": "e2983620-a359-4652-8fd3-95222833680c",
       "department_name": "General Medicine",
       "specialization": "General Medicine",
       "experience_years": 5,
@@ -893,746 +1063,760 @@
       ],
       "consultation_fee": 500,
       "avatar": "",
-      "created_at": "2026-06-05T12:54:28.959Z"
-    },
-    {
-      "id": "doc-bd13a7e9c429",
-      "user_id": "cdbaf56e-6122-48e5-b8c1-4b2f14bbb9be",
-      "full_name": "Doctor",
-      "email": "doctor@gmail.com",
-      "phone": "9966331166",
-      "department_id": "dep-006",
-      "department_name": "General Medicine",
-      "specialization": "General Medicine",
-      "experience_years": 5,
-      "availability": [
-        {
-          "day": "Monday",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "Wednesday",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "Friday",
-          "start": "09:00",
-          "end": "17:00"
-        }
-      ],
-      "consultation_fee": 500,
-      "avatar": "",
-      "created_at": "2026-06-05T13:16:13.707Z"
-    },
-    {
-      "id": "doc-4a767972ed03",
-      "user_id": "e16c380b-cf76-42d5-abb7-51f455b7a555",
-      "full_name": "Doctor",
-      "email": "doctorr@gmail.com",
-      "phone": "9966553311",
-      "department_id": "dep-006",
-      "department_name": "General Medicine",
-      "specialization": "General Medicine",
-      "experience_years": 5,
-      "availability": [
-        {
-          "day": "Monday",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "Wednesday",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "Friday",
-          "start": "09:00",
-          "end": "17:00"
-        }
-      ],
-      "consultation_fee": 500,
-      "avatar": "",
-      "created_at": "2026-06-05T14:20:17.455Z"
+      "created_at": "2026-06-14T18:20:18.004Z"
     }
   ],
   "appointments": [
     {
-      "id": "apt-001",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "department_name": "Cardiology",
-      "date": "2025-06-10",
+      "id": "f7455faa-ea55-4f25-a37f-72824ce17750",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2025-06-09",
       "time_slot": "10:00-10:30",
       "status": "confirmed",
       "notes": "Follow-up for hypertension",
-      "created_at": "2025-06-01T00:00:00Z"
+      "created_at": "2025-06-01T00:00:00.000Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
     },
     {
-      "id": "apt-002",
-      "patient_id": "pat-002",
-      "patient_name": "Ananya Desai",
-      "doctor_id": "doc-002",
-      "doctor_name": "Dr. Vikram Singh",
-      "department_name": "Neurology",
-      "date": "2025-06-10",
+      "id": "0c79058f-7a6a-4b7e-a0d3-d922c2e3b201",
+      "patient_id": "28af0016-d423-44d4-a058-a7a24fe7495d",
+      "doctor_id": "0aff9302-4f33-4b3a-92bb-ce09135c0428",
+      "date": "2025-06-09",
       "time_slot": "11:00-11:30",
       "status": "confirmed",
       "notes": "Recurring headaches evaluation",
-      "created_at": "2025-06-02T00:00:00Z"
+      "created_at": "2025-06-02T00:00:00.000Z",
+      "patient_name": "",
+      "doctor_name": "Dr. Amit Verma",
+      "department_name": "Neurology"
     },
     {
-      "id": "apt-003",
-      "patient_id": "pat-003",
-      "patient_name": "Arjun Mehta",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "department_name": "Cardiology",
-      "date": "2025-06-08",
+      "id": "1dca0bea-8521-47cf-87d4-da520b3651e9",
+      "patient_id": "d146c325-3f00-43e6-8123-b90f6e666d7b",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2025-06-07",
       "time_slot": "14:00-14:30",
       "status": "completed",
       "notes": "Chest pain investigation",
-      "created_at": "2025-05-30T00:00:00Z"
+      "created_at": "2025-05-30T00:00:00.000Z",
+      "patient_name": "",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
     },
     {
-      "id": "apt-004",
-      "patient_id": "pat-004",
-      "patient_name": "Sneha Nair",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "department_name": "Cardiology",
-      "date": "2025-06-05",
+      "id": "5d68ec94-a95b-49ef-9fd4-6aef1911140a",
+      "patient_id": "6e26468a-9118-4e83-a05c-3b6a6fb25c7b",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2025-06-04",
       "time_slot": "09:30-10:00",
       "status": "completed",
       "notes": "Annual check-up",
-      "created_at": "2025-05-28T00:00:00Z"
+      "created_at": "2025-05-28T00:00:00.000Z",
+      "patient_name": "",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
     },
     {
-      "id": "apt-005",
-      "patient_id": "pat-005",
-      "patient_name": "Kiran Rao",
-      "doctor_id": "doc-002",
-      "doctor_name": "Dr. Vikram Singh",
-      "department_name": "Neurology",
-      "date": "2025-06-12",
+      "id": "9f37d705-2aeb-4d90-8b60-e121545e3c89",
+      "patient_id": "e4edcb13-66bd-4826-8cd8-7f7056929b21",
+      "doctor_id": "0aff9302-4f33-4b3a-92bb-ce09135c0428",
+      "date": "2025-06-11",
       "time_slot": "10:00-10:30",
       "status": "pending",
       "notes": "Migraine treatment review",
-      "created_at": "2025-06-03T00:00:00Z"
+      "created_at": "2025-06-03T00:00:00.000Z",
+      "patient_name": "",
+      "doctor_name": "Dr. Amit Verma",
+      "department_name": "Neurology"
     },
     {
-      "id": "apt-006",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "doctor_id": "doc-002",
-      "doctor_name": "Dr. Vikram Singh",
-      "department_name": "Neurology",
-      "date": "2025-06-03",
+      "id": "65c21a4c-821f-4bb6-a45f-4da2ed2360e5",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "0aff9302-4f33-4b3a-92bb-ce09135c0428",
+      "date": "2025-06-02",
       "time_slot": "15:00-15:30",
       "status": "cancelled",
       "notes": "Patient requested cancellation",
-      "created_at": "2025-05-25T00:00:00Z"
+      "created_at": "2025-05-25T00:00:00.000Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Amit Verma",
+      "department_name": "Neurology"
     },
     {
       "id": "b81176b4-303a-4b78-bb87-74fc40cc9c3f",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-07-19",
+      "time_slot": "14:30-15:00",
+      "status": "completed",
+      "notes": "Testing appointment lifecycle sync",
+      "created_at": "2026-06-05T12:54:28.991Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "ca2d9666-8732-4f45-994f-132fd9d0485b",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-07-20",
+      "time_slot": "15:00-15:30",
+      "status": "cancelled",
+      "notes": "Testing reject workflow",
+      "created_at": "2026-06-05T12:54:29.005Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "3489a990-2a5e-4c60-a72d-4f7071081716",
+      "patient_id": "7eb9e23f-738f-484e-8f8b-9396c8c75446",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-06-04",
+      "time_slot": "16:00-16:30",
+      "status": "pending",
+      "notes": "No",
+      "created_at": "2026-06-05T13:16:57.793Z",
+      "patient_name": "Patient",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "824118f2-c015-4db7-98c1-5bca8fa74b35",
+      "patient_id": "4f2c41ac-c1bf-43b6-adc1-2e8b406bb40b",
+      "doctor_id": "2c764cab-fd7c-4443-8675-e7ffedcc4f19",
+      "date": "2026-06-05",
+      "time_slot": "11:00-11:30",
+      "status": "pending",
+      "notes": "no",
+      "created_at": "2026-06-05T14:19:22.332Z",
+      "patient_name": "",
+      "doctor_name": "Dr. Neha Singh",
+      "department_name": "Neurology"
+    },
+    {
+      "id": "6d4d436f-8cf9-4072-bb35-58f84f42324d",
+      "patient_id": "4f2c41ac-c1bf-43b6-adc1-2e8b406bb40b",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-06-04",
+      "time_slot": "10:00-10:30",
+      "status": "pending",
+      "notes": "Chest pain",
+      "created_at": "2026-06-05T14:40:38.273Z",
+      "patient_name": "",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "34844628-c8f6-4585-a18e-3880f79dee40",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-06-04",
+      "time_slot": "11:00-11:30",
+      "status": "cancelled",
+      "notes": "pain",
+      "created_at": "2026-06-05T14:44:11.114Z",
+      "patient_name": "Patient",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "96501ebf-810d-4464-995a-2dc3d8170be7",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "b2d2fac1-e895-47b5-9fce-fac7aaf699c3",
+      "date": "2026-06-04",
+      "time_slot": "09:00-09:30",
+      "status": "cancelled",
+      "notes": "other",
+      "created_at": "2026-06-05T14:48:45.731Z",
+      "patient_name": "Patient",
+      "doctor_name": "Doctor",
+      "department_name": "General Medicine"
+    },
+    {
+      "id": "48a3bffe-ef21-448f-9e70-27cd72e35e10",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-06-11",
+      "time_slot": "11:00-11:30",
+      "status": "confirmed",
+      "notes": "Testing full sync workflow audit",
+      "created_at": "2026-06-06T09:26:46.744Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "eb78b602-9e3e-43e1-b484-b7310b7f61f2",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-06-05",
+      "time_slot": "15:00-15:30",
+      "status": "cancelled",
+      "notes": "other",
+      "created_at": "2026-06-06T09:31:36.209Z",
+      "patient_name": "Patient",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "328ae8a3-865d-48da-aa5a-291163c2496d",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "b2d2fac1-e895-47b5-9fce-fac7aaf699c3",
+      "date": "2026-06-05",
+      "time_slot": "10:00-10:30",
+      "status": "cancelled",
+      "notes": "no",
+      "created_at": "2026-06-06T09:33:35.926Z",
+      "patient_name": "Patient",
+      "doctor_name": "Doctor",
+      "department_name": "General Medicine"
+    },
+    {
+      "id": "bf6b9d69-719e-48f6-8074-a1ff50ec085e",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "date": "2026-06-05",
+      "time_slot": "15:00-15:30",
+      "status": "completed",
+      "notes": "no",
+      "created_at": "2026-06-06T09:34:18.373Z",
+      "patient_name": "Patient",
+      "doctor_name": "Doctor",
+      "department_name": "General Medicine"
+    },
+    {
+      "id": "8ebf008d-eb74-4e6c-a12a-50a83c25de38",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "date": "2026-06-05",
+      "time_slot": "14:00-14:30",
+      "status": "completed",
+      "notes": "no",
+      "created_at": "2026-06-06T09:45:32.519Z",
+      "patient_name": "Patient",
+      "doctor_name": "Doctor",
+      "department_name": "General Medicine"
+    },
+    {
+      "id": "4e44be9f-3a11-4156-83d8-ae399499cb76",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "date": "2026-06-05",
+      "time_slot": "16:00-16:30",
+      "status": "completed",
+      "notes": "",
+      "created_at": "2026-06-06T10:13:08.814Z",
+      "patient_name": "Patient",
+      "doctor_name": "Doctor",
+      "department_name": "General Medicine"
+    },
+    {
+      "id": "a91b0de6-9a03-4773-9551-5da8c06b2ed2",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-07-19",
+      "time_slot": "14:30-15:00",
+      "status": "confirmed",
+      "notes": "Testing appointment lifecycle sync",
+      "created_at": "2026-06-14T18:12:42.002Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "0adf2cab-581b-4101-aaab-66af684c37ad",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-07-20",
+      "time_slot": "15:00-15:30",
+      "status": "cancelled",
+      "notes": "Testing reject workflow",
+      "created_at": "2026-06-14T18:12:42.830Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "87dcb55c-9186-41d8-aec9-fc4afff81967",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-07-19",
+      "time_slot": "14:30-15:00",
+      "status": "completed",
+      "notes": "Testing appointment lifecycle sync",
+      "created_at": "2026-06-14T18:14:27.472Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "cdb1ccb0-c514-41ab-8b35-ee3bb4988f1e",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-07-20",
+      "time_slot": "15:00-15:30",
+      "status": "cancelled",
+      "notes": "Testing reject workflow",
+      "created_at": "2026-06-14T18:14:28.375Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "b8c2f158-404e-4e0f-86c2-aa9547492d16",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-07-19",
+      "time_slot": "14:30-15:00",
+      "status": "completed",
+      "notes": "Testing appointment lifecycle sync",
+      "created_at": "2026-06-14T18:17:19.693Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "d780d623-7213-47f4-b378-d963e751cb81",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "date": "2026-07-20",
+      "time_slot": "15:00-15:30",
+      "status": "cancelled",
+      "notes": "Testing reject workflow",
+      "created_at": "2026-06-14T18:17:24.215Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "department_name": "Cardiology"
+    },
+    {
+      "id": "8057cc95-e6a7-4042-b51e-ec448aa1b95d",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "doctor_name": "Dr. Priya Sharma Updated",
       "department_name": "Cardiology",
       "date": "2026-07-20",
       "time_slot": "14:30-15:00",
       "status": "completed",
       "notes": "Testing appointment lifecycle sync",
-      "created_at": "2026-06-05T12:54:28.991Z"
+      "created_at": "2026-06-14T18:20:20.368Z"
     },
     {
-      "id": "ca2d9666-8732-4f45-994f-132fd9d0485b",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
+      "id": "ad6c8419-faa3-46cd-888f-9b7b8a984a98",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "doctor_name": "Dr. Priya Sharma Updated",
       "department_name": "Cardiology",
       "date": "2026-07-21",
       "time_slot": "15:00-15:30",
       "status": "cancelled",
       "notes": "Testing reject workflow",
-      "created_at": "2026-06-05T12:54:29.005Z"
-    },
-    {
-      "id": "3489a990-2a5e-4c60-a72d-4f7071081716",
-      "patient_id": "pat-83bb6fb9d0b5",
-      "patient_name": "Patient",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "department_name": "Cardiology",
-      "date": "2026-06-05",
-      "time_slot": "16:00-16:30",
-      "status": "pending",
-      "notes": "No",
-      "created_at": "2026-06-05T13:16:57.793Z"
-    },
-    {
-      "id": "824118f2-c015-4db7-98c1-5bca8fa74b35",
-      "patient_id": "pat-4979a6d732f4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-005",
-      "doctor_name": "Dr. Neha Singh",
-      "department_name": "Neurology",
-      "date": "2026-06-06",
-      "time_slot": "11:00-11:30",
-      "status": "pending",
-      "notes": "no",
-      "created_at": "2026-06-05T14:19:22.332Z"
-    },
-    {
-      "id": "6d4d436f-8cf9-4072-bb35-58f84f42324d",
-      "patient_id": "pat-4979a6d732f4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "department_name": "Cardiology",
-      "date": "2026-06-05",
-      "time_slot": "10:00-10:30",
-      "status": "pending",
-      "notes": "Chest pain",
-      "created_at": "2026-06-05T14:40:38.273Z"
-    },
-    {
-      "id": "34844628-c8f6-4585-a18e-3880f79dee40",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "department_name": "Cardiology",
-      "date": "2026-06-05",
-      "time_slot": "11:00-11:30",
-      "status": "cancelled",
-      "notes": "pain",
-      "created_at": "2026-06-05T14:44:11.114Z"
-    },
-    {
-      "id": "96501ebf-810d-4464-995a-2dc3d8170be7",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-bd13a7e9c429",
-      "doctor_name": "Doctor",
-      "department_name": "General Medicine",
-      "date": "2026-06-05",
-      "time_slot": "09:00-09:30",
-      "status": "cancelled",
-      "notes": "other",
-      "created_at": "2026-06-05T14:48:45.731Z"
-    },
-    {
-      "id": "48a3bffe-ef21-448f-9e70-27cd72e35e10",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "department_name": "Cardiology",
-      "date": "2026-06-12",
-      "time_slot": "11:00-11:30",
-      "status": "confirmed",
-      "notes": "Testing full sync workflow audit",
-      "created_at": "2026-06-06T09:26:46.744Z"
-    },
-    {
-      "id": "eb78b602-9e3e-43e1-b484-b7310b7f61f2",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "department_name": "Cardiology",
-      "date": "2026-06-06",
-      "time_slot": "15:00-15:30",
-      "status": "cancelled",
-      "notes": "other",
-      "created_at": "2026-06-06T09:31:36.209Z"
-    },
-    {
-      "id": "328ae8a3-865d-48da-aa5a-291163c2496d",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-bd13a7e9c429",
-      "doctor_name": "Doctor",
-      "department_name": "General Medicine",
-      "date": "2026-06-06",
-      "time_slot": "10:00-10:30",
-      "status": "cancelled",
-      "notes": "no",
-      "created_at": "2026-06-06T09:33:35.926Z"
-    },
-    {
-      "id": "bf6b9d69-719e-48f6-8074-a1ff50ec085e",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "department_name": "General Medicine",
-      "date": "2026-06-06",
-      "time_slot": "15:00-15:30",
-      "status": "completed",
-      "notes": "no",
-      "created_at": "2026-06-06T09:34:18.373Z"
-    },
-    {
-      "id": "8ebf008d-eb74-4e6c-a12a-50a83c25de38",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "department_name": "General Medicine",
-      "date": "2026-06-06",
-      "time_slot": "14:00-14:30",
-      "status": "completed",
-      "notes": "no",
-      "created_at": "2026-06-06T09:45:32.519Z"
-    },
-    {
-      "id": "4e44be9f-3a11-4156-83d8-ae399499cb76",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "department_name": "General Medicine",
-      "date": "2026-06-06",
-      "time_slot": "16:00-16:30",
-      "status": "completed",
-      "notes": "",
-      "created_at": "2026-06-06T10:13:08.814Z"
+      "created_at": "2026-06-14T18:20:24.834Z"
     }
   ],
   "prescriptions": [
     {
-      "id": "presc-001",
-      "appointment_id": "apt-003",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "patient_id": "pat-003",
-      "patient_name": "Arjun Mehta",
+      "id": "96b717c6-ce89-4b3f-ba2d-867868ae1af1",
+      "appointment_id": "1dca0bea-8521-47cf-87d4-da520b3651e9",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "patient_id": "d146c325-3f00-43e6-8123-b90f6e666d7b",
       "diagnosis": "Angina Pectoris",
       "medicines": [
         {
           "name": "Aspirin",
           "dosage": "75mg",
-          "frequency": "Once daily",
-          "duration": "30 days"
+          "duration": "30 days",
+          "frequency": "Once daily"
         },
         {
           "name": "Atorvastatin",
           "dosage": "20mg",
-          "frequency": "Once daily (night)",
-          "duration": "30 days"
+          "duration": "30 days",
+          "frequency": "Once daily (night)"
         },
         {
           "name": "Metoprolol",
           "dosage": "50mg",
-          "frequency": "Twice daily",
-          "duration": "30 days"
+          "duration": "30 days",
+          "frequency": "Twice daily"
         }
       ],
       "instructions": "Avoid fatty foods. Regular exercise (30 min walking). Follow-up in 4 weeks.",
-      "follow_up_date": "2025-07-06",
-      "created_at": "2025-06-08T14:30:00Z"
+      "follow_up_date": "2025-07-05",
+      "created_at": "2025-06-08T14:30:00.000Z",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "patient_name": ""
     },
     {
-      "id": "presc-002",
-      "appointment_id": "apt-004",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "patient_id": "pat-004",
-      "patient_name": "Sneha Nair",
+      "id": "c7e15c1c-7c59-42f3-96a9-775b2fa2d846",
+      "appointment_id": "5d68ec94-a95b-49ef-9fd4-6aef1911140a",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "patient_id": "6e26468a-9118-4e83-a05c-3b6a6fb25c7b",
       "diagnosis": "Healthy – routine check-up",
       "medicines": [
         {
           "name": "Vitamin D3",
           "dosage": "60000 IU",
-          "frequency": "Once weekly",
-          "duration": "8 weeks"
+          "duration": "8 weeks",
+          "frequency": "Once weekly"
         }
       ],
       "instructions": "Maintain healthy diet. Repeat Vitamin D levels after 8 weeks.",
-      "follow_up_date": "2025-08-01",
-      "created_at": "2025-06-05T10:00:00Z"
+      "follow_up_date": "2025-07-31",
+      "created_at": "2025-06-05T10:00:00.000Z",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "patient_name": ""
     },
     {
       "id": "489b4bcb-3784-425c-9d1e-d53378d3b206",
-      "appointment_id": "",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "patient_id": "pat-83bb6fb9d0b5",
-      "patient_name": "Patient",
+      "appointment_id": null,
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "patient_id": "7eb9e23f-738f-484e-8f8b-9396c8c75446",
       "diagnosis": "Normal",
       "medicines": [
         {
           "name": "Vitamin D3",
           "dosage": "60k",
-          "frequency": "OD",
-          "duration": "10"
+          "duration": "10",
+          "frequency": "OD"
         }
       ],
       "instructions": "take rest & proper food",
-      "follow_up_date": "2026-06-10",
-      "created_at": "2026-06-05T14:50:33.150Z"
+      "follow_up_date": "2026-06-09",
+      "created_at": "2026-06-05T14:50:33.150Z",
+      "doctor_name": "Doctor",
+      "patient_name": "Patient"
     },
     {
       "id": "071f4166-c926-48f7-93a4-4e5759f72d93",
       "appointment_id": "48a3bffe-ef21-448f-9e70-27cd72e35e10",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
       "diagnosis": "Chronic Migraine",
       "medicines": [
         {
           "name": "Paracetamol",
           "dosage": "500mg",
-          "frequency": "Twice daily",
-          "duration": "5 days"
+          "duration": "5 days",
+          "frequency": "Twice daily"
         }
       ],
       "instructions": "Take after meals",
-      "created_at": "2026-06-06T09:26:46.757Z"
+      "created_at": "2026-06-06T09:26:46.757Z",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "patient_name": "Rahul Verma Updated"
     },
     {
       "id": "18e20665-6184-45ae-9095-aa812ed258af",
       "appointment_id": "bf6b9d69-719e-48f6-8074-a1ff50ec085e",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
       "diagnosis": "Fever",
       "medicines": [
         {
           "name": "Paracetamol",
           "dosage": "500mg",
-          "frequency": "OD",
-          "duration": "3"
+          "duration": "3",
+          "frequency": "OD"
         }
       ],
       "instructions": "take proper rest ",
-      "follow_up_date": "2026-06-10",
-      "created_at": "2026-06-06T09:35:18.057Z"
+      "follow_up_date": "2026-06-09",
+      "created_at": "2026-06-06T09:35:18.057Z",
+      "doctor_name": "Doctor",
+      "patient_name": "Patient"
     },
     {
       "id": "55cef9fb-1f44-47ac-922f-977c01f03a62",
-      "appointment_id": "",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
+      "appointment_id": null,
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
       "diagnosis": "Renal Insufficiency Monitoring",
       "medicines": [
         {
           "name": "Metformin",
           "dosage": "500mg",
-          "frequency": "Once daily",
-          "duration": "30 days"
+          "duration": "30 days",
+          "frequency": "Once daily"
         }
       ],
       "instructions": "Monitor creatinine levels closely.",
-      "created_at": "2026-06-06T09:43:05.421Z"
+      "created_at": "2026-06-06T09:43:05.421Z",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "patient_name": "Rahul Verma Updated"
     },
     {
       "id": "478474d4-7b76-4925-9511-08586fd3e11f",
       "appointment_id": "8ebf008d-eb74-4e6c-a12a-50a83c25de38",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
       "diagnosis": "Back pain, Fever, Weakness",
       "medicines": [
         {
           "name": "Metformin",
           "dosage": "500mg",
-          "frequency": "OD",
-          "duration": "10"
+          "duration": "10",
+          "frequency": "OD"
         }
       ],
       "instructions": "Take proper rest for 10 days& take healthy food",
-      "follow_up_date": "2026-06-10",
-      "created_at": "2026-06-06T09:47:49.277Z"
+      "follow_up_date": "2026-06-09",
+      "created_at": "2026-06-06T09:47:49.277Z",
+      "doctor_name": "Doctor",
+      "patient_name": "Patient"
     },
     {
       "id": "af7e764d-25e5-4f3e-895d-9a7369465299",
-      "appointment_id": "",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
+      "appointment_id": null,
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
       "diagnosis": "Severe Chest Discomfort & Syncope",
       "medicines": [],
       "instructions": "Absolute bed rest. Refrain from heavy physical exertion.",
-      "clinical_notes": "Subjective chest tightness with radiation to left arm. Heart sounds normal. Clear lungs. EKG showing borderline Q waves.",
-      "request_admission": true,
-      "admission_notes": "Admit to ward bed for overnight observation, telemetry monitor, and serial cardiac enzymes.",
-      "referral_specialist_id": "doc-002",
-      "referral_specialist_name": "Dr. Amit Verma",
-      "referral_notes": "Referred for neurology/cardiac syncope diagnostic assessment.",
-      "created_at": "2026-06-06T10:10:15.769Z"
+      "created_at": "2026-06-06T10:10:15.769Z",
+      "doctor_name": "Dr. Priya Sharma Updated",
+      "patient_name": "Rahul Verma Updated"
     },
     {
       "id": "3069f19a-9ab8-4a35-b763-a3d8836b915c",
       "appointment_id": "4e44be9f-3a11-4156-83d8-ae399499cb76",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
       "diagnosis": "Weakness & pain",
       "medicines": [
         {
           "name": "Paracetamol",
           "dosage": "500mg",
-          "frequency": "OD",
-          "duration": "5"
+          "duration": "5",
+          "frequency": "OD"
         },
         {
           "name": "Vitamin D3",
           "dosage": "60K",
-          "frequency": "OD",
-          "duration": "5"
+          "duration": "5",
+          "frequency": "OD"
         }
       ],
       "instructions": "take rest",
-      "clinical_notes": "Pain on back ",
-      "request_admission": true,
-      "admission_notes": "5 days admit on hospital",
-      "referral_specialist_id": "doc-006",
-      "referral_specialist_name": "Dr. Vikram Rao",
-      "referral_notes": "Not general pain it has back pain ",
-      "follow_up_date": "2026-06-06",
-      "created_at": "2026-06-06T10:16:11.756Z"
-    },
-    {
-      "id": "232e869a-9846-4eff-a8da-418df0140948",
-      "appointment_id": "",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma Updated",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma Updated",
-      "diagnosis": "Severe Chest Discomfort & Syncope",
-      "medicines": [],
-      "instructions": "Absolute bed rest. Refrain from heavy physical exertion.",
-      "clinical_notes": "Subjective chest tightness with radiation to left arm. Heart sounds normal. Clear lungs. EKG showing borderline Q waves.",
-      "request_admission": true,
-      "admission_notes": "Admit to ward bed for overnight observation, telemetry monitor, and serial cardiac enzymes.",
-      "referral_specialist_id": "doc-002",
-      "referral_specialist_name": "Dr. Amit Verma",
-      "referral_notes": "Referred for neurology/cardiac syncope diagnostic assessment.",
-      "created_at": "2026-06-06T10:49:56.091Z"
+      "follow_up_date": "2026-06-05",
+      "created_at": "2026-06-06T10:16:11.756Z",
+      "doctor_name": "Doctor",
+      "patient_name": "Patient"
     }
   ],
   "medicines": [
     {
-      "id": "med-001",
+      "id": "4b26a8e2-6858-4e6b-8e41-35a8363a8630",
       "name": "Aspirin",
       "category": "Cardiovascular",
       "stock_quantity": 500,
-      "expiry_date": "2026-12-31",
+      "expiry_date": "2026-12-30",
       "price": 5.5,
       "manufacturer": "Sun Pharma",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "med-002",
+      "id": "eeea269f-f5c5-4393-add4-cdf626b4003c",
       "name": "Atorvastatin",
       "category": "Cardiovascular",
       "stock_quantity": 300,
-      "expiry_date": "2026-08-15",
+      "expiry_date": "2026-08-14",
       "price": 12,
       "manufacturer": "Cipla",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "med-003",
+      "id": "8c1baf2a-b601-4eda-9ae9-6e9eca943f6d",
       "name": "Metoprolol",
       "category": "Cardiovascular",
       "stock_quantity": 200,
-      "expiry_date": "2026-06-30",
+      "expiry_date": "2026-06-29",
       "price": 8.75,
       "manufacturer": "Dr. Reddy's",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "med-004",
+      "id": "88b69247-40f4-45a7-aebe-8e3b2d1520f5",
       "name": "Paracetamol",
       "category": "Analgesic",
       "stock_quantity": 1000,
-      "expiry_date": "2027-03-01",
+      "expiry_date": "2027-02-28",
       "price": 2,
       "manufacturer": "GSK",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "med-005",
+      "id": "b2c06f1d-8489-4db6-a0af-c4b7bdbea9c0",
       "name": "Amoxicillin",
       "category": "Antibiotic",
       "stock_quantity": 15,
-      "expiry_date": "2025-07-01",
+      "expiry_date": "2025-06-30",
       "price": 18.5,
       "manufacturer": "Cipla",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "med-006",
+      "id": "8173f394-17ce-4132-9766-87af686a934f",
       "name": "Ibuprofen",
       "category": "NSAID",
       "stock_quantity": 800,
-      "expiry_date": "2027-01-15",
+      "expiry_date": "2027-01-14",
       "price": 4.25,
       "manufacturer": "Sun Pharma",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "med-007",
+      "id": "18ae54e9-93c6-42cb-b7aa-50b3b9af68a7",
       "name": "Cetirizine",
       "category": "Antihistamine",
       "stock_quantity": 5,
-      "expiry_date": "2025-08-20",
+      "expiry_date": "2025-08-19",
       "price": 3,
       "manufacturer": "Mankind",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "med-008",
+      "id": "9ebca117-a3c4-4a3c-86e2-1d99141b5658",
       "name": "Vitamin D3",
       "category": "Supplement",
       "stock_quantity": 250,
-      "expiry_date": "2027-06-01",
+      "expiry_date": "2027-05-31",
       "price": 15,
       "manufacturer": "Abbott",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "med-009",
+      "id": "a268bc26-af71-4cb7-b453-d2e7fcd5ed67",
       "name": "Omeprazole",
       "category": "Gastrointestinal",
       "stock_quantity": 0,
-      "expiry_date": "2026-11-10",
+      "expiry_date": "2026-11-09",
       "price": 6.5,
       "manufacturer": "Dr. Reddy's",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     },
     {
-      "id": "med-010",
+      "id": "b8bf1b40-f369-4d6f-93b1-9f740f890b76",
       "name": "Metformin",
       "category": "Antidiabetic",
       "stock_quantity": 400,
-      "expiry_date": "2026-09-20",
+      "expiry_date": "2026-09-19",
       "price": 7,
       "manufacturer": "USV",
-      "created_at": "2025-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00.000Z"
     }
   ],
   "labReports": [
     {
-      "id": "lab-001",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "technician_id": "usr-007",
+      "id": "b8c2223b-4bad-42ef-a1b8-5c959a2219fc",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "technician_id": "de1970d0-eedd-4735-88fe-a670cea31208",
       "test_name": "Complete Blood Count",
       "test_type": "Hematology",
       "status": "completed",
       "results": [
         {
-          "parameter": "Hemoglobin",
-          "value": "13.5",
           "unit": "g/dL",
-          "normal_range": "13.0-17.0",
-          "is_abnormal": false
+          "value": "13.5",
+          "parameter": "Hemoglobin",
+          "is_abnormal": false,
+          "normal_range": "13.0-17.0"
         },
         {
-          "parameter": "WBC Count",
+          "unit": "/µL",
           "value": "11200",
-          "unit": "/µL",
-          "normal_range": "4000-11000",
-          "is_abnormal": true
+          "parameter": "WBC Count",
+          "is_abnormal": true,
+          "normal_range": "4000-11000"
         },
         {
-          "parameter": "Platelet Count",
+          "unit": "/µL",
           "value": "250000",
-          "unit": "/µL",
-          "normal_range": "150000-400000",
-          "is_abnormal": false
+          "parameter": "Platelet Count",
+          "is_abnormal": false,
+          "normal_range": "150000-400000"
         },
         {
-          "parameter": "RBC Count",
-          "value": "4.8",
           "unit": "million/µL",
-          "normal_range": "4.5-5.5",
-          "is_abnormal": false
+          "value": "4.8",
+          "parameter": "RBC Count",
+          "is_abnormal": false,
+          "normal_range": "4.5-5.5"
         }
       ],
-      "created_at": "2025-06-01T00:00:00Z"
+      "report_url": "",
+      "created_at": "2025-06-01T00:00:00.000Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated"
     },
     {
-      "id": "lab-002",
-      "patient_id": "pat-003",
-      "patient_name": "Arjun Mehta",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "technician_id": "usr-007",
+      "id": "740eb4bc-19cc-4deb-990d-4de2eff943bf",
+      "patient_id": "d146c325-3f00-43e6-8123-b90f6e666d7b",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "technician_id": "de1970d0-eedd-4735-88fe-a670cea31208",
       "test_name": "Lipid Profile",
       "test_type": "Biochemistry",
       "status": "completed",
       "results": [
         {
-          "parameter": "Total Cholesterol",
+          "unit": "mg/dL",
           "value": "265",
-          "unit": "mg/dL",
-          "normal_range": "<200",
-          "is_abnormal": true
+          "parameter": "Total Cholesterol",
+          "is_abnormal": true,
+          "normal_range": "<200"
         },
         {
-          "parameter": "LDL",
+          "unit": "mg/dL",
           "value": "175",
-          "unit": "mg/dL",
-          "normal_range": "<100",
-          "is_abnormal": true
+          "parameter": "LDL",
+          "is_abnormal": true,
+          "normal_range": "<100"
         },
         {
-          "parameter": "HDL",
+          "unit": "mg/dL",
           "value": "38",
-          "unit": "mg/dL",
-          "normal_range": ">40",
-          "is_abnormal": true
+          "parameter": "HDL",
+          "is_abnormal": true,
+          "normal_range": ">40"
         },
         {
-          "parameter": "Triglycerides",
-          "value": "210",
           "unit": "mg/dL",
-          "normal_range": "<150",
-          "is_abnormal": true
+          "value": "210",
+          "parameter": "Triglycerides",
+          "is_abnormal": true,
+          "normal_range": "<150"
         }
       ],
-      "created_at": "2025-06-07T00:00:00Z"
+      "report_url": "",
+      "created_at": "2025-06-07T00:00:00.000Z",
+      "patient_name": "",
+      "doctor_name": "Dr. Priya Sharma Updated"
     },
     {
-      "id": "lab-003",
-      "patient_id": "pat-005",
-      "patient_name": "Kiran Rao",
-      "doctor_id": "doc-002",
-      "doctor_name": "Dr. Vikram Singh",
+      "id": "e71cf5ff-a51c-42ab-9b79-ba6a066b1e9b",
+      "patient_id": "e4edcb13-66bd-4826-8cd8-7f7056929b21",
+      "doctor_id": "0aff9302-4f33-4b3a-92bb-ce09135c0428",
+      "technician_id": null,
       "test_name": "MRI Brain",
       "test_type": "Radiology",
       "status": "pending",
       "results": [],
-      "created_at": "2025-06-09T00:00:00Z"
+      "report_url": "",
+      "created_at": "2025-06-09T00:00:00.000Z",
+      "patient_name": "",
+      "doctor_name": "Dr. Amit Verma"
     },
     {
       "id": "61a53496-88fb-4809-b241-9815c5625b2c",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "technician_id": "usr-007",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "technician_id": "de1970d0-eedd-4735-88fe-a670cea31208",
       "test_name": "Thyroid Profile",
       "test_type": "Blood Test",
       "status": "completed",
@@ -1640,331 +1824,282 @@
         "TSH": "2.4 uIU/mL (Normal: 0.4 - 4.5)",
         "Free T4": "1.2 ng/dL (Normal: 0.8 - 1.8)"
       },
-      "created_at": "2026-06-06T09:26:46.768Z"
+      "report_url": "",
+      "created_at": "2026-06-06T09:26:46.768Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated"
     },
     {
       "id": "52a19133-68c0-41bd-91b4-4f1196ab7a47",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "technician_id": "usr-007",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "technician_id": "de1970d0-eedd-4735-88fe-a670cea31208",
       "test_name": "Renal Function Test",
       "test_type": "Blood Test",
       "status": "completed",
       "results": {
-        "Serum Creatinine": "1.1 mg/dL (Normal: 0.6 - 1.2)",
         "BUN": "15 mg/dL (Normal: 7 - 20)",
-        "eGFR": "85 mL/min/1.73m2 (Normal: >90)"
+        "eGFR": "85 mL/min/1.73m2 (Normal: >90)",
+        "Serum Creatinine": "1.1 mg/dL (Normal: 0.6 - 1.2)"
       },
-      "created_at": "2026-06-06T09:43:05.426Z"
+      "report_url": "",
+      "created_at": "2026-06-06T09:43:05.426Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated"
     },
     {
       "id": "b36a3696-fc7b-48a3-a280-563e29a3044c",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "technician_id": "tech-001",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "technician_id": "de1970d0-eedd-4735-88fe-a670cea31208",
       "test_name": "CBC",
       "test_type": "Blood Test",
       "status": "completed",
       "results": {
         "Hemoglobin": "13 g/dl (Normal: 10-15 g/ml)"
       },
-      "created_at": "2026-06-06T09:47:49.292Z"
+      "report_url": "",
+      "created_at": "2026-06-06T09:47:49.292Z",
+      "patient_name": "Patient",
+      "doctor_name": "Doctor"
     },
     {
       "id": "4b9c628f-4f46-487f-b85b-f22af926c616",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "technician_id": "tech-001",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "technician_id": "de1970d0-eedd-4735-88fe-a670cea31208",
       "test_name": "Lumbir spine",
       "test_type": "Imaging",
       "status": "completed",
       "results": {
         "Some issue on left side": "0 0 (Normal: 0)"
       },
-      "created_at": "2026-06-06T09:47:49.296Z"
+      "report_url": "",
+      "created_at": "2026-06-06T09:47:49.296Z",
+      "patient_name": "Patient",
+      "doctor_name": "Doctor"
     },
     {
       "id": "1501323d-9953-4b7a-802e-27217fc62399",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma",
-      "technician_id": "usr-002",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "doctor_id": "6d567444-9ad5-413b-842f-20ac6daae868",
+      "technician_id": "cc0ff307-f175-4d7c-b38b-6c8594dde947",
       "test_name": "Extended Lipid Profile & Cardiac Troponin",
       "test_type": "Blood Test",
       "status": "pending",
       "results": [],
-      "created_at": "2026-06-06T10:10:15.783Z"
+      "report_url": "",
+      "created_at": "2026-06-06T10:10:15.783Z",
+      "patient_name": "Rahul Verma Updated",
+      "doctor_name": "Dr. Priya Sharma Updated"
     },
     {
       "id": "edb98c56-841a-4dad-b10d-b98745b33398",
-      "patient_id": "pat-66ccadaefee4",
-      "patient_name": "Patient",
-      "doctor_id": "doc-4a767972ed03",
-      "doctor_name": "Doctor",
-      "technician_id": "tech-001",
+      "patient_id": "e776d37a-f029-4cef-8b38-a8fa9ec8bdca",
+      "doctor_id": "67375cbf-0815-4a31-84bb-137cabb46fc2",
+      "technician_id": "de1970d0-eedd-4735-88fe-a670cea31208",
       "test_name": "CBC",
       "test_type": "Blood Test",
       "status": "completed",
       "results": {
         "Hb": "12 g/ml (Normal: 10-15 g/ml)"
       },
-      "created_at": "2026-06-06T10:16:11.771Z"
-    },
-    {
-      "id": "4e98b401-71ff-445c-b0ec-9ebffc0ac67f",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma Updated",
-      "doctor_id": "doc-001",
-      "doctor_name": "Dr. Priya Sharma Updated",
-      "technician_id": "usr-002",
-      "test_name": "Extended Lipid Profile & Cardiac Troponin",
-      "test_type": "Blood Test",
-      "status": "pending",
-      "results": [],
-      "created_at": "2026-06-06T10:49:56.099Z"
+      "report_url": "",
+      "created_at": "2026-06-06T10:16:11.771Z",
+      "patient_name": "Patient",
+      "doctor_name": "Doctor"
     }
   ],
   "billings": [
     {
-      "id": "bill-001",
-      "patient_id": "pat-003",
-      "patient_name": "Arjun Mehta",
-      "appointment_id": "apt-003",
+      "id": "38ae6112-da3e-4ed9-a099-71105342e12a",
+      "patient_id": "d146c325-3f00-43e6-8123-b90f6e666d7b",
+      "appointment_id": "1dca0bea-8521-47cf-87d4-da520b3651e9",
       "consultation_fee": 800,
       "lab_charges": 1200,
       "medicine_charges": 450,
       "total_amount": 2450,
       "payment_status": "paid",
-      "created_at": "2025-06-08T15:00:00Z"
+      "created_at": "2025-06-08T15:00:00.000Z",
+      "patient_name": ""
     },
     {
-      "id": "bill-002",
-      "patient_id": "pat-004",
-      "patient_name": "Sneha Nair",
-      "appointment_id": "apt-004",
+      "id": "31b53274-cc3a-4458-b4a9-a30d014b2a2c",
+      "patient_id": "6e26468a-9118-4e83-a05c-3b6a6fb25c7b",
+      "appointment_id": "5d68ec94-a95b-49ef-9fd4-6aef1911140a",
       "consultation_fee": 800,
       "lab_charges": 0,
       "medicine_charges": 120,
       "total_amount": 920,
       "payment_status": "paid",
-      "created_at": "2025-06-05T10:30:00Z"
+      "created_at": "2025-06-05T10:30:00.000Z",
+      "patient_name": ""
     },
     {
-      "id": "bill-003",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "appointment_id": "apt-001",
+      "id": "85b4817a-aec4-46e8-85f0-a800d8478f55",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "appointment_id": "f7455faa-ea55-4f25-a37f-72824ce17750",
       "consultation_fee": 800,
       "lab_charges": 600,
       "medicine_charges": 0,
       "total_amount": 1400,
       "payment_status": "pending",
-      "created_at": "2025-06-10T10:30:00Z"
+      "created_at": "2025-06-10T10:30:00.000Z",
+      "patient_name": "Rahul Verma Updated"
     },
     {
       "id": "656e1af5-c835-4fbc-b13f-e93a8246e6ce",
-      "patient_id": "pat-4979a6d732f4",
-      "patient_name": "Patient",
+      "patient_id": "4f2c41ac-c1bf-43b6-adc1-2e8b406bb40b",
+      "appointment_id": null,
       "consultation_fee": 500,
       "lab_charges": 100,
       "medicine_charges": 0,
       "total_amount": 600,
-      "payment_status": "partial",
-      "created_at": "2026-06-05T14:41:09.787Z"
+      "payment_status": "partially_paid",
+      "created_at": "2026-06-05T14:41:09.787Z",
+      "patient_name": ""
     },
     {
       "id": "d1f94e7a-902d-4cae-9327-d0744c22403a",
-      "patient_id": "pat-4979a6d732f4",
-      "patient_name": "Patient",
+      "patient_id": "4f2c41ac-c1bf-43b6-adc1-2e8b406bb40b",
+      "appointment_id": null,
       "consultation_fee": 600,
       "lab_charges": 0,
       "medicine_charges": 0,
       "total_amount": 600,
       "payment_status": "paid",
-      "created_at": "2026-06-05T14:42:17.229Z"
+      "created_at": "2026-06-05T14:42:17.229Z",
+      "patient_name": ""
     }
   ],
   "vitals": [
     {
-      "id": "vit-001",
-      "patient_id": "pat-001",
-      "patient_name": "Rahul Verma",
-      "nurse_id": "usr-003",
+      "id": "36f79654-a3ce-4894-a776-c103d4124ebf",
+      "patient_id": "01e85dac-4b1f-4254-901a-247964da8f06",
+      "nurse_id": "641aeaad-15b4-4e76-9a4b-4f9647d8ab74",
       "blood_pressure": "140/90",
       "heart_rate": 82,
       "temperature": 98.4,
       "oxygen_level": 97,
       "weight": 78.5,
-      "recorded_at": "2025-06-10T09:45:00Z"
+      "recorded_at": "2025-06-10T09:45:00.000Z",
+      "patient_name": "Rahul Verma Updated"
     },
     {
-      "id": "vit-002",
-      "patient_id": "pat-003",
-      "patient_name": "Arjun Mehta",
-      "nurse_id": "usr-003",
+      "id": "c0ed12fe-86fa-48cf-a276-382dec2d7487",
+      "patient_id": "d146c325-3f00-43e6-8123-b90f6e666d7b",
+      "nurse_id": "641aeaad-15b4-4e76-9a4b-4f9647d8ab74",
       "blood_pressure": "155/95",
       "heart_rate": 88,
       "temperature": 98.6,
       "oxygen_level": 96,
       "weight": 85,
-      "recorded_at": "2025-06-08T13:45:00Z"
+      "recorded_at": "2025-06-08T13:45:00.000Z",
+      "patient_name": ""
     },
     {
-      "id": "vit-003",
-      "patient_id": "pat-004",
-      "patient_name": "Sneha Nair",
-      "nurse_id": "usr-003",
+      "id": "0c46574d-cd22-4b7d-b076-951e7ecc6de0",
+      "patient_id": "6e26468a-9118-4e83-a05c-3b6a6fb25c7b",
+      "nurse_id": "641aeaad-15b4-4e76-9a4b-4f9647d8ab74",
       "blood_pressure": "118/76",
       "heart_rate": 72,
       "temperature": 98.2,
       "oxygen_level": 99,
       "weight": 58,
-      "recorded_at": "2025-06-05T09:15:00Z"
+      "recorded_at": "2025-06-05T09:15:00.000Z",
+      "patient_name": ""
     },
     {
-      "id": "vit-004",
-      "patient_id": "pat-002",
-      "patient_name": "Ananya Desai",
-      "nurse_id": "usr-003",
+      "id": "abd55d65-89c9-44a3-a897-1efd062bfa42",
+      "patient_id": "28af0016-d423-44d4-a058-a7a24fe7495d",
+      "nurse_id": "641aeaad-15b4-4e76-9a4b-4f9647d8ab74",
       "blood_pressure": "122/80",
       "heart_rate": 74,
       "temperature": 99.1,
       "oxygen_level": 98,
       "weight": 62,
-      "recorded_at": "2025-06-09T11:00:00Z"
+      "recorded_at": "2025-06-09T11:00:00.000Z",
+      "patient_name": ""
     }
   ],
   "admins": [
     {
-      "id": "adm-0e327244394d",
-      "user_id": "usr-001",
-      "full_name": "Dr. Admin Kumar Updated",
-      "email": "admin@medicare.com",
-      "phone": "+91-9876543299",
+      "id": "0264d57f-8ba6-4233-8b83-adc5c1374dc4",
+      "user_id": "b75b61b9-e63c-447d-8151-fd09e78b53a4",
       "designation": "Senior Administrator",
       "department": "Operations",
       "contact_details": "Alt Contact +91-9999999999",
-      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
-      "created_at": "2025-01-01T00:00:00Z"
-    },
-    {
-      "id": "adm-514dc333bd62",
-      "user_id": "91c3edc1-d93d-4431-b579-30444e9dc365",
-      "full_name": "Admin",
-      "email": "adminn@gmail.com",
-      "phone": "9988776655",
-      "designation": "Administrator",
-      "department": "IT & Operations",
-      "contact_details": "9988776655",
-      "avatar": "",
-      "created_at": "2026-06-05T14:36:13.258Z"
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "full_name": "Dr. Admin Kumar Updated",
+      "email": "admin@medicare.com",
+      "phone": "+91-9876543299",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
     }
   ],
   "nurses": [
     {
-      "id": "nur-489e2d163939",
-      "user_id": "usr-003",
-      "full_name": "Nurse Anjali Patel Updated",
-      "phone": "+91-9876543296",
+      "id": "652f4d74-cc6b-44d6-b758-17f1406cbd3b",
+      "user_id": "641aeaad-15b4-4e76-9a4b-4f9647d8ab74",
       "department": "ICU",
       "shift": "Night",
       "qualification": "M.Sc. Nursing",
       "experience": 5,
-      "avatar": "",
-      "created_at": "2025-01-03T00:00:00Z"
+      "created_at": "2025-01-03T00:00:00.000Z",
+      "full_name": "Nurse Anjali Patel Updated",
+      "phone": "+91-9876543296",
+      "avatar": ""
     },
     {
-      "id": "nur-7fc0c047ee6c",
+      "id": "8018617d-78d5-4dbc-a148-d69da3ad703f",
       "user_id": "51f51bcb-a043-49f9-977e-e31979f0a2a4",
-      "full_name": "Nurse",
-      "phone": "9988776655",
       "department": "General Ward",
       "shift": "Morning",
       "qualification": "B.Sc. Nursing",
       "experience": 2,
-      "avatar": "",
-      "created_at": "2026-06-06T09:58:22.642Z"
+      "created_at": "2026-06-06T09:58:22.642Z",
+      "full_name": "Nurse",
+      "phone": "9988776655",
+      "avatar": ""
     }
   ],
   "receptionists": [
     {
-      "id": "rec-fd16af985c80",
-      "user_id": "usr-004",
-      "full_name": "Reena Gupta Updated",
-      "phone": "+91-9876543295",
+      "id": "9928931b-07c7-4de9-98c5-8bdb0fb8e589",
+      "user_id": "a390c19f-8014-4ef5-93ce-442970c7645e",
       "desk_number": "Reception Desk B",
       "shift": "Afternoon",
       "experience": 4,
-      "avatar": "",
-      "created_at": "2025-01-04T00:00:00Z"
-    },
-    {
-      "id": "rec-f5bce6128500",
-      "user_id": "4c1bf0b4-0eb7-4024-91bc-27aca242482e",
-      "full_name": "Reception",
-      "phone": "9334411888",
-      "desk_number": "Desk 1",
-      "shift": "Morning",
-      "experience": 2,
-      "avatar": "",
-      "created_at": "2026-06-05T14:38:43.544Z"
+      "created_at": "2025-01-04T00:00:00.000Z",
+      "full_name": "Reena Gupta Updated",
+      "phone": "+91-9876543295",
+      "avatar": ""
     }
   ],
   "pharmacists": [
     {
-      "id": "phr-611f2dff8231",
-      "user_id": "usr-006",
-      "full_name": "Suresh Reddy Updated",
-      "phone": "+91-9876543294",
+      "id": "59ab572d-772c-493d-89bc-bba019584c34",
+      "user_id": "62476612-11b8-42e5-aec5-3ba26b09b8d7",
       "license_number": "PHA-888888",
       "qualification": "M.Pharm",
       "experience": 6,
-      "avatar": "",
-      "created_at": "2025-01-06T00:00:00Z"
-    },
-    {
-      "id": "phr-59ebe9f5990c",
-      "user_id": "56a40172-e64d-473d-83e6-5c56b77110b0",
-      "full_name": "Pharma",
-      "phone": "9955916933",
-      "license_number": "PHA-999999",
-      "qualification": "B.Pharm",
-      "experience": 2,
-      "avatar": "",
-      "created_at": "2026-06-06T09:54:32.601Z"
+      "created_at": "2025-01-06T00:00:00.000Z",
+      "full_name": "Suresh Reddy Updated",
+      "phone": "+91-9876543294",
+      "avatar": ""
     }
   ],
   "labTechnicians": [
     {
-      "id": "lab-fd295bbab8fa",
-      "user_id": "usr-007",
-      "full_name": "Meena Iyer Updated",
-      "phone": "+91-9876543293",
+      "id": "6af0fc07-2298-4cbe-a00e-ccda7f843640",
+      "user_id": "de1970d0-eedd-4735-88fe-a670cea31208",
       "lab_department": "Hematology",
       "qualification": "M.Sc. MLT",
       "license_number": "LAB-888888",
       "experience": 7,
-      "avatar": "",
-      "created_at": "2025-01-07T00:00:00Z"
-    },
-    {
-      "id": "lab-08a253506c3c",
-      "user_id": "49a4676e-a8aa-4d0a-93fe-ab95f979f88f",
-      "full_name": "lab",
-      "phone": "9977553344",
-      "lab_department": "Pathology",
-      "qualification": "B.Sc. MLT",
-      "license_number": "LAB-999999",
-      "experience": 2,
-      "avatar": "",
-      "created_at": "2026-06-05T14:17:27.282Z"
+      "created_at": "2025-01-07T00:00:00.000Z",
+      "full_name": "Meena Iyer Updated",
+      "phone": "+91-9876543293",
+      "avatar": ""
     }
   ]
 }

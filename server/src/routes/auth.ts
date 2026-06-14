@@ -43,7 +43,7 @@ router.post(
     }
 
     const { email, password } = req.body;
-    const user = getUserByEmail(email);
+    const user = await getUserByEmail(email);
 
     if (!user) {
       const body: ApiResponse = { success: false, error: 'Invalid email or password' };
@@ -68,11 +68,11 @@ router.post(
 
     // Trigger auto-creation of patient profile if not exists
     if (user.role === 'patient') {
-      getPatientByUserId(user.id);
+      await getPatientByUserId(user.id);
     }
     // Trigger auto-creation of doctor profile if not exists
     if (user.role === 'doctor') {
-      getDoctorByUserId(user.id);
+      await getDoctorByUserId(user.id);
     }
 
     const { password_hash: _, ...safeUser } = user;
@@ -106,7 +106,7 @@ router.post(
 
     const { email, password, full_name, phone, role } = req.body;
 
-    if (getUserByEmail(email)) {
+    if (await getUserByEmail(email)) {
       const body: ApiResponse = { success: false, error: 'Email already registered' };
       res.status(409).json(body);
       return;
@@ -127,15 +127,15 @@ router.post(
       updated_at: now,
     };
 
-    createUser(newUser);
+    await createUser(newUser);
 
     // Trigger auto-creation of patient profile if registered as patient
     if (newUser.role === 'patient') {
-      getPatientByUserId(newUser.id);
+      await getPatientByUserId(newUser.id);
     }
     // Trigger auto-creation of doctor profile if registered as doctor
     if (newUser.role === 'doctor') {
-      getDoctorByUserId(newUser.id);
+      await getDoctorByUserId(newUser.id);
     }
 
     const token = generateToken({ userId: newUser.id, email: newUser.email, role: newUser.role });
@@ -152,8 +152,8 @@ router.post(
 
 // ─── GET /api/auth/profile ─────────────────────────────────────────
 
-router.get('/profile', authenticate, (req: Request, res: Response): void => {
-  const user = getUserByEmail(req.user!.email);
+router.get('/profile', authenticate, async (req: Request, res: Response): Promise<void> => {
+  const user = await getUserByEmail(req.user!.email);
   if (!user) {
     const body: ApiResponse = { success: false, error: 'User not found' };
     res.status(404).json(body);
@@ -166,10 +166,10 @@ router.get('/profile', authenticate, (req: Request, res: Response): void => {
       profileDetails = getAdminProfileByUserId(user.id);
       break;
     case 'doctor':
-      profileDetails = getDoctorByUserId(user.id);
+      profileDetails = await getDoctorByUserId(user.id);
       break;
     case 'patient':
-      profileDetails = getPatientByUserId(user.id);
+      profileDetails = await getPatientByUserId(user.id);
       break;
     case 'nurse':
       profileDetails = getNurseProfileByUserId(user.id);
@@ -200,7 +200,7 @@ router.get('/profile', authenticate, (req: Request, res: Response): void => {
 
 router.put('/profile', authenticate, async (req: Request, res: Response): Promise<void> => {
   const userId = req.user!.userId;
-  const user = getUserByEmail(req.user!.email);
+  const user = await getUserByEmail(req.user!.email);
   if (!user) {
     res.status(404).json({ success: false, error: 'User not found' });
     return;
@@ -219,7 +219,7 @@ router.put('/profile', authenticate, async (req: Request, res: Response): Promis
   }
 
   // Update base user
-  const updatedUser = updateUser(userId, {
+  const updatedUser = await updateUser(userId, {
     ...(full_name !== undefined ? { full_name } : {}),
     ...(phone !== undefined ? { phone } : {}),
     ...(avatar !== undefined ? { avatar } : {}),
@@ -236,7 +236,7 @@ router.put('/profile', authenticate, async (req: Request, res: Response): Promis
     switch (user.role) {
       case 'admin': {
         const { designation, department, contact_details } = roleData;
-        updatedProfile = updateAdminProfile(userId, {
+        updatedProfile = await updateAdminProfile(userId, {
           full_name: updatedUser.full_name,
           phone: updatedUser.phone,
           avatar: updatedUser.avatar,
@@ -261,7 +261,7 @@ router.put('/profile', authenticate, async (req: Request, res: Response): Promis
           return;
         }
 
-        updatedProfile = updateDoctorProfileByUserId(userId, {
+        updatedProfile = await updateDoctorProfileByUserId(userId, {
           full_name: updatedUser.full_name,
           phone: updatedUser.phone,
           avatar: updatedUser.avatar,
@@ -286,7 +286,7 @@ router.put('/profile', authenticate, async (req: Request, res: Response): Promis
           return;
         }
 
-        updatedProfile = updatePatientProfileByUserId(userId, {
+        updatedProfile = await updatePatientProfileByUserId(userId, {
           full_name: updatedUser.full_name,
           phone: updatedUser.phone,
           ...(ageNum !== undefined ? { age: ageNum } : {}),
@@ -308,7 +308,7 @@ router.put('/profile', authenticate, async (req: Request, res: Response): Promis
           return;
         }
 
-        updatedProfile = updateNurseProfile(userId, {
+        updatedProfile = await updateNurseProfile(userId, {
           full_name: updatedUser.full_name,
           phone: updatedUser.phone,
           avatar: updatedUser.avatar,
@@ -328,7 +328,7 @@ router.put('/profile', authenticate, async (req: Request, res: Response): Promis
           return;
         }
 
-        updatedProfile = updateReceptionistProfile(userId, {
+        updatedProfile = await updateReceptionistProfile(userId, {
           full_name: updatedUser.full_name,
           phone: updatedUser.phone,
           avatar: updatedUser.avatar,
@@ -347,7 +347,7 @@ router.put('/profile', authenticate, async (req: Request, res: Response): Promis
           return;
         }
 
-        updatedProfile = updatePharmacistProfile(userId, {
+        updatedProfile = await updatePharmacistProfile(userId, {
           full_name: updatedUser.full_name,
           phone: updatedUser.phone,
           avatar: updatedUser.avatar,
@@ -366,7 +366,7 @@ router.put('/profile', authenticate, async (req: Request, res: Response): Promis
           return;
         }
 
-        updatedProfile = updateLabTechnicianProfile(userId, {
+        updatedProfile = await updateLabTechnicianProfile(userId, {
           full_name: updatedUser.full_name,
           phone: updatedUser.phone,
           avatar: updatedUser.avatar,

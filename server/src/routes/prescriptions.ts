@@ -12,24 +12,24 @@ router.use(authenticate);
 
 // ─── GET /api/prescriptions ─────────────────────────────────────────
 
-router.get('/', (_req: Request, res: Response): void => {
-  const prescriptions = store.getPrescriptions();
+router.get('/', async (_req: Request, res: Response): Promise<void> => {
+  const prescriptions = await store.getPrescriptions();
   const body: ApiResponse = { success: true, data: prescriptions };
   res.json(body);
 });
 
 // ─── GET /api/prescriptions/patient/:patientId ──────────────────────
 
-router.get('/patient/:patientId', (req: Request, res: Response): void => {
-  const prescriptions = store.getPrescriptionsByPatient(req.params.patientId);
+router.get('/patient/:patientId', async (req: Request, res: Response): Promise<void> => {
+  const prescriptions = await store.getPrescriptionsByPatient(req.params.patientId);
   const body: ApiResponse = { success: true, data: prescriptions };
   res.json(body);
 });
 
 // ─── GET /api/prescriptions/:id ─────────────────────────────────────
 
-router.get('/:id', (req: Request, res: Response): void => {
-  const presc = store.getPrescriptionById(req.params.id);
+router.get('/:id', async (req: Request, res: Response): Promise<void> => {
+  const presc = await store.getPrescriptionById(req.params.id);
   if (!presc) {
     const body: ApiResponse = { success: false, error: 'Prescription not found' };
     res.status(404).json(body);
@@ -49,7 +49,7 @@ router.post(
     body('diagnosis').notEmpty().withMessage('Diagnosis is required'),
     body('medicines').optional().isArray().withMessage('Medicines must be an array'),
   ],
-  (req: Request, res: Response): void => {
+  async (req: Request, res: Response): Promise<void> => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       const body: ApiResponse = { success: false, error: errors.array().map(e => e.msg).join(', ') };
@@ -57,12 +57,12 @@ router.post(
       return;
     }
 
-    const patient = store.getPatientById(req.body.patient_id);
-    const doctor = store.getDoctorByUserId(req.user!.userId);
+    const patient = await store.getPatientById(req.body.patient_id);
+    const doctor = await store.getDoctorByUserId(req.user!.userId);
 
     let referralSpecialistName = '';
     if (req.body.referral_specialist_id) {
-      const specDoc = store.getDoctorById(req.body.referral_specialist_id);
+      const specDoc = await store.getDoctorById(req.body.referral_specialist_id);
       if (specDoc) {
         referralSpecialistName = specDoc.full_name;
       }
@@ -88,7 +88,7 @@ router.post(
       created_at: nowISO(),
     };
 
-    store.createPrescription(newPresc);
+    await store.createPrescription(newPresc);
     const body: ApiResponse = { success: true, data: newPresc, message: 'Prescription created' };
     res.status(201).json(body);
   },

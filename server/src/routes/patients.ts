@@ -13,11 +13,11 @@ router.use(authenticate);
 
 // ─── GET /api/patients ──────────────────────────────────────────────
 
-router.get('/', (_req: Request, res: Response): void => {
+router.get('/', async (_req: Request, res: Response): Promise<void> => {
   const { search } = _req.query;
   const patients = search
-    ? store.searchPatients(search as string)
-    : store.getPatients();
+    ? await store.searchPatients(search as string)
+    : await store.getPatients();
 
   const body: ApiResponse = { success: true, data: patients };
   res.json(body);
@@ -25,8 +25,8 @@ router.get('/', (_req: Request, res: Response): void => {
 
 // ─── GET /api/patients/:id ──────────────────────────────────────────
 
-router.get('/:id', (req: Request, res: Response): void => {
-  const patient = store.getPatientById(req.params.id);
+router.get('/:id', async (req: Request, res: Response): Promise<void> => {
+  const patient = await store.getPatientById(req.params.id);
   if (!patient) {
     const body: ApiResponse = { success: false, error: 'Patient not found' };
     res.status(404).json(body);
@@ -49,7 +49,7 @@ router.post(
     body('gender').isIn(['male', 'female', 'other']).withMessage('Valid gender is required'),
     body('blood_group').isIn(['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-']).withMessage('Valid blood group is required'),
   ],
-  (req: Request, res: Response): void => {
+  async (req: Request, res: Response): Promise<void> => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       const body: ApiResponse = { success: false, error: errors.array().map(e => e.msg).join(', ') };
@@ -72,7 +72,7 @@ router.post(
       created_at: nowISO(),
     };
 
-    store.createPatient(newPatient);
+    await store.createPatient(newPatient);
     const body: ApiResponse = { success: true, data: newPatient, message: 'Patient created' };
     res.status(201).json(body);
   },
@@ -80,8 +80,8 @@ router.post(
 
 // ─── PUT /api/patients/:id ──────────────────────────────────────────
 
-router.put('/:id', authorize('admin', 'receptionist', 'doctor'), (req: Request, res: Response): void => {
-  const updated = store.updatePatient(req.params.id, req.body);
+router.put('/:id', authorize('admin', 'receptionist', 'doctor'), async (req: Request, res: Response): Promise<void> => {
+  const updated = await store.updatePatient(req.params.id, req.body);
   if (!updated) {
     const body: ApiResponse = { success: false, error: 'Patient not found' };
     res.status(404).json(body);
@@ -93,8 +93,8 @@ router.put('/:id', authorize('admin', 'receptionist', 'doctor'), (req: Request, 
 
 // ─── DELETE /api/patients/:id ───────────────────────────────────────
 
-router.delete('/:id', authorize('admin'), (req: Request, res: Response): void => {
-  const deleted = store.deletePatient(req.params.id);
+router.delete('/:id', authorize('admin'), async (req: Request, res: Response): Promise<void> => {
+  const deleted = await store.deletePatient(req.params.id);
   if (!deleted) {
     const body: ApiResponse = { success: false, error: 'Patient not found' };
     res.status(404).json(body);

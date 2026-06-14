@@ -12,16 +12,16 @@ router.use(authenticate);
 
 // ─── GET /api/doctors ───────────────────────────────────────────────
 
-router.get('/', (_req: Request, res: Response): void => {
-  const doctors = store.getDoctors();
+router.get('/', async (_req: Request, res: Response): Promise<void> => {
+  const doctors = await store.getDoctors();
   const body: ApiResponse = { success: true, data: doctors };
   res.json(body);
 });
 
 // ─── GET /api/doctors/:id ───────────────────────────────────────────
 
-router.get('/:id', (req: Request, res: Response): void => {
-  const doctor = store.getDoctorById(req.params.id);
+router.get('/:id', async (req: Request, res: Response): Promise<void> => {
+  const doctor = await store.getDoctorById(req.params.id);
   if (!doctor) {
     const body: ApiResponse = { success: false, error: 'Doctor not found' };
     res.status(404).json(body);
@@ -33,8 +33,8 @@ router.get('/:id', (req: Request, res: Response): void => {
 
 // ─── GET /api/doctors/:id/availability ──────────────────────────────
 
-router.get('/:id/availability', (req: Request, res: Response): void => {
-  const doctor = store.getDoctorById(req.params.id);
+router.get('/:id/availability', async (req: Request, res: Response): Promise<void> => {
+  const doctor = await store.getDoctorById(req.params.id);
   if (!doctor) {
     const body: ApiResponse = { success: false, error: 'Doctor not found' };
     res.status(404).json(body);
@@ -44,7 +44,7 @@ router.get('/:id/availability', (req: Request, res: Response): void => {
   // Check existing appointments for the requested date
   const date = req.query.date as string | undefined;
   const appointments = date
-    ? store.getAppointmentsByDoctor(doctor.id).filter(a => a.date === date && a.status !== 'cancelled')
+    ? (await store.getAppointmentsByDoctor(doctor.id)).filter(a => a.date === date && a.status !== 'cancelled')
     : [];
 
   const bookedSlots = appointments.map(a => a.time_slot);
@@ -72,7 +72,7 @@ router.post(
     body('department_id').notEmpty().withMessage('Department is required'),
     body('consultation_fee').isNumeric().withMessage('Consultation fee must be a number'),
   ],
-  (req: Request, res: Response): void => {
+  async (req: Request, res: Response): Promise<void> => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       const body: ApiResponse = { success: false, error: errors.array().map(e => e.msg).join(', ') };
@@ -80,7 +80,7 @@ router.post(
       return;
     }
 
-    const dept = store.getDepartmentById(req.body.department_id);
+    const dept = await store.getDepartmentById(req.body.department_id);
 
     const newDoctor: Doctor = {
       id: generateId(),
@@ -98,7 +98,7 @@ router.post(
       created_at: nowISO(),
     };
 
-    store.createDoctor(newDoctor);
+    await store.createDoctor(newDoctor);
     const body: ApiResponse = { success: true, data: newDoctor, message: 'Doctor created' };
     res.status(201).json(body);
   },
@@ -106,8 +106,8 @@ router.post(
 
 // ─── PUT /api/doctors/:id ───────────────────────────────────────────
 
-router.put('/:id', authorize('admin'), (req: Request, res: Response): void => {
-  const updated = store.updateDoctor(req.params.id, req.body);
+router.put('/:id', authorize('admin'), async (req: Request, res: Response): Promise<void> => {
+  const updated = await store.updateDoctor(req.params.id, req.body);
   if (!updated) {
     const body: ApiResponse = { success: false, error: 'Doctor not found' };
     res.status(404).json(body);
@@ -119,8 +119,8 @@ router.put('/:id', authorize('admin'), (req: Request, res: Response): void => {
 
 // ─── DELETE /api/doctors/:id ────────────────────────────────────────
 
-router.delete('/:id', authorize('admin'), (req: Request, res: Response): void => {
-  const deleted = store.deleteDoctor(req.params.id);
+router.delete('/:id', authorize('admin'), async (req: Request, res: Response): Promise<void> => {
+  const deleted = await store.deleteDoctor(req.params.id);
   if (!deleted) {
     const body: ApiResponse = { success: false, error: 'Doctor not found' };
     res.status(404).json(body);
